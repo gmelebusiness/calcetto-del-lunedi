@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-10-19T00:03:44.117Z",
+ "updatedAt": "2026-10-19T04:27:56.231Z",
  "title": "Sondaggio automatico - Lunedì prossimo",
  "field": 8,
  "keepers": true,
@@ -71,7 +71,7 @@
  "riserve": [
   {
    "name": "Alessandro Asd.",
-   "at": "2026-10-13T11:28:31.095Z"
+   "at": null
   },
   {
    "name": "Pieroconte29",
