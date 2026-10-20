@@ -1,120 +1,18 @@
 {
  "version": 1,
- "updatedAt": "2026-10-19T04:27:56.231Z",
+ "updatedAt": "2026-10-20T07:10:08.062Z",
  "title": "Sondaggio automatico - Lunedì prossimo",
  "field": 8,
  "keepers": true,
  "needed": 14,
  "nextPollAt": "2026-10-20T11:28:00.000Z",
  "nextWeek": "2026-10-26",
- "week": "2026-10-19",
- "label": "lunedì 19 ottobre",
- "status": "definitiva",
- "convocati": [
-  {
-   "name": "Simone Mor.",
-   "at": "2026-10-13T11:28:19.277Z"
-  },
-  {
-   "name": "Pierandrea Con.",
-   "at": "2026-10-13T11:28:19.338Z"
-  },
-  {
-   "name": "Stefano Pre.",
-   "at": "2026-10-13T11:28:19.707Z"
-  },
-  {
-   "name": "Riccardo Lit.",
-   "at": "2026-10-13T11:28:19.720Z"
-  },
-  {
-   "name": "Andrea",
-   "at": "2026-10-13T11:28:19.916Z"
-  },
-  {
-   "name": "Gabriele",
-   "at": "2026-10-13T11:28:19.931Z"
-  },
-  {
-   "name": "Pierfra Cai.",
-   "at": "2026-10-13T11:28:19.934Z"
-  },
-  {
-   "name": "D📧DO",
-   "at": "2026-10-13T11:28:20.077Z"
-  },
-  {
-   "name": "Federico",
-   "at": "2026-10-13T11:28:20.191Z"
-  },
-  {
-   "name": "Speedy",
-   "at": "2026-10-13T11:28:20.196Z"
-  },
-  {
-   "name": "Carlo Cam.",
-   "at": "2026-10-13T11:28:20.375Z"
-  },
-  {
-   "name": "Riccardo Pan.",
-   "at": "2026-10-13T11:28:24.258Z"
-  },
-  {
-   "name": "Giulio Mel.",
-   "at": "2026-10-13T11:28:25.624Z"
-  },
-  {
-   "name": "Diego",
-   "at": "2026-10-13T11:28:27.111Z"
-  }
- ],
- "riserve": [
-  {
-   "name": "Alessandro Asd.",
-   "at": null
-  },
-  {
-   "name": "Pieroconte29",
-   "at": "2026-10-13T11:28:36.904Z"
-  },
-  {
-   "name": "Emanuele🫨",
-   "at": "2026-10-13T11:28:43.286Z"
-  },
-  {
-   "name": "Riccardo Pal.",
-   "at": null
-  },
-  {
-   "name": "Graziano Ven.",
-   "at": "2026-10-13T11:36:08.994Z"
-  },
-  {
-   "name": "francesco Cap.",
-   "at": "2026-10-13T11:36:38.032Z"
-  },
-  {
-   "name": "tommi p",
-   "at": "2026-10-13T11:39:41.607Z"
-  },
-  {
-   "name": "Cristian",
-   "at": "2026-10-13T11:45:36.283Z"
-  },
-  {
-   "name": "Matteo🏂",
-   "at": "2026-10-13T11:55:12.395Z"
-  },
-  {
-   "name": "Spagna_✌🏻",
-   "at": "2026-10-13T12:16:02.460Z"
-  },
-  {
-   "name": "Marco",
-   "at": "2026-10-13T12:47:01.240Z"
-  }
- ],
+ "week": null,
+ "label": null,
+ "status": "nessuna",
+ "convocati": [],
+ "riserve": [],
  "missing": 0,
- "lineupAt": "2026-10-18T08:00:00.000Z",
- "lineupSentAt": "2026-10-18T08:00:21.340Z"
+ "lineupAt": null,
+ "lineupSentAt": null
 }
