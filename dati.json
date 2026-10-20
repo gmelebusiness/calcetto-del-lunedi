@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-10-20T11:35:06.404Z",
+ "updatedAt": "2026-10-20T12:15:31.335Z",
  "title": "Sondaggio automatico - Lunedì prossimo",
  "field": 7,
  "keepers": true,
@@ -108,6 +108,10 @@
   {
    "name": "Pierandrea Con.",
    "at": "2026-10-20T11:32:39.206Z"
+  },
+  {
+   "name": "tommi p",
+   "at": "2026-10-20T12:15:30.256Z"
   }
  ],
  "missing": 0,
