@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-10-20T11:28:13.793Z",
+ "updatedAt": "2026-10-20T11:34:13.856Z",
  "title": "Sondaggio automatico - Lunedì prossimo",
  "field": 8,
  "keepers": true,
@@ -32,10 +32,6 @@
    "at": "2026-10-20T11:28:10.665Z"
   },
   {
-   "name": "SBR_Impianti",
-   "at": "2026-10-20T11:28:10.669Z"
-  },
-  {
    "name": "Stefano Pre.",
    "at": "2026-10-20T11:28:10.795Z"
   },
@@ -54,10 +50,67 @@
   {
    "name": "Gabriele",
    "at": "2026-10-20T11:28:12.255Z"
+  },
+  {
+   "name": "Diego",
+   "at": "2026-10-20T11:28:13.684Z"
+  },
+  {
+   "name": "Giulio Mel.",
+   "at": "2026-10-20T11:28:14.154Z"
+  },
+  {
+   "name": "Matteo🏂",
+   "at": "2026-10-20T11:28:14.249Z"
+  },
+  {
+   "name": "Ale",
+   "at": "2026-10-20T11:28:14.713Z"
   }
  ],
- "riserve": [],
- "missing": 3,
+ "riserve": [
+  {
+   "name": "Federico",
+   "at": "2026-10-20T11:28:15.479Z"
+  },
+  {
+   "name": "Riccardo Pal.",
+   "at": "2026-10-20T11:28:20.021Z"
+  },
+  {
+   "name": "SBR_Impianti",
+   "at": "2026-10-20T11:28:27.712Z"
+  },
+  {
+   "name": "Riccardo Pan.",
+   "at": "2026-10-20T11:28:27.814Z"
+  },
+  {
+   "name": "Simone De g.",
+   "at": "2026-10-20T11:28:29.174Z"
+  },
+  {
+   "name": "Speedy",
+   "at": "2026-10-20T11:29:35.736Z"
+  },
+  {
+   "name": "francesco Cap.",
+   "at": "2026-10-20T11:29:43.555Z"
+  },
+  {
+   "name": "Emanuele🫨",
+   "at": "2026-10-20T11:30:55.161Z"
+  },
+  {
+   "name": "Graziano Ven.",
+   "at": "2026-10-20T11:31:24.385Z"
+  },
+  {
+   "name": "Pierandrea Con.",
+   "at": "2026-10-20T11:32:39.206Z"
+  }
+ ],
+ "missing": 0,
  "lineupAt": "2026-10-25T09:00:00.000Z",
  "lineupSentAt": null
 }
