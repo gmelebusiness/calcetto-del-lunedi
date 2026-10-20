@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-10-20T11:28:10.573Z",
+ "updatedAt": "2026-10-20T11:28:13.793Z",
  "title": "Sondaggio automatico - Lunedì prossimo",
  "field": 8,
  "keepers": true,
@@ -10,9 +10,54 @@
  "week": "2026-10-26",
  "label": "lunedì 26 ottobre",
  "status": "provvisoria",
- "convocati": [],
+ "convocati": [
+  {
+   "name": "Andrea",
+   "at": "2026-10-20T11:28:09.823Z"
+  },
+  {
+   "name": "Simone Mor.",
+   "at": "2026-10-20T11:28:10.210Z"
+  },
+  {
+   "name": "D📧DO",
+   "at": "2026-10-20T11:28:10.481Z"
+  },
+  {
+   "name": "Pierfra Cai.",
+   "at": "2026-10-20T11:28:10.493Z"
+  },
+  {
+   "name": "Davide",
+   "at": "2026-10-20T11:28:10.665Z"
+  },
+  {
+   "name": "SBR_Impianti",
+   "at": "2026-10-20T11:28:10.669Z"
+  },
+  {
+   "name": "Stefano Pre.",
+   "at": "2026-10-20T11:28:10.795Z"
+  },
+  {
+   "name": "Riccardo Lit.",
+   "at": "2026-10-20T11:28:10.829Z"
+  },
+  {
+   "name": "francesco Ant.",
+   "at": "2026-10-20T11:28:11.023Z"
+  },
+  {
+   "name": "Carlo Cam.",
+   "at": "2026-10-20T11:28:11.943Z"
+  },
+  {
+   "name": "Gabriele",
+   "at": "2026-10-20T11:28:12.255Z"
+  }
+ ],
  "riserve": [],
- "missing": 14,
+ "missing": 3,
  "lineupAt": "2026-10-25T09:00:00.000Z",
  "lineupSentAt": null
 }
