@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-10-20T12:15:33.196Z",
+ "updatedAt": "2026-10-20T12:21:36.320Z",
  "title": "Sondaggio automatico - Lunedì prossimo",
  "field": 7,
  "keepers": true,
@@ -108,6 +108,10 @@
   {
    "name": "Pierandrea Con.",
    "at": "2026-10-20T11:32:39.206Z"
+  },
+  {
+   "name": "Gianmarco Pot.",
+   "at": "2026-10-20T12:16:54.689Z"
   }
  ],
  "missing": 0,
