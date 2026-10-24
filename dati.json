@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-10-24T14:42:00.376Z",
+ "updatedAt": "2026-10-24T15:30:34.374Z",
  "title": "Sondaggio automatico - Lunedì prossimo",
  "field": 8,
  "keepers": true,
@@ -8,7 +8,18 @@
  "nextPollAt": "2026-10-27T12:28:00.000Z",
  "nextWeek": "2026-11-02",
  "gameTime": "20:00",
- "results": [],
+ "results": [
+  {
+   "week": "2026-10-19",
+   "label": "lunedì 19 ottobre",
+   "score": [
+    2,
+    7
+   ],
+   "teams": [],
+   "scorers": []
+  }
+ ],
  "week": "2026-10-26",
  "label": "lunedì 26 ottobre",
  "status": "provvisoria",
