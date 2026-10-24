@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-10-24T15:33:28.023Z",
+ "updatedAt": "2026-10-24T15:53:55.593Z",
  "title": "Sondaggio automatico - Lunedì prossimo",
  "field": 8,
  "keepers": true,
@@ -133,15 +133,25 @@
   {
    "name": "Squadra A",
    "players": [
-    "Giulio 2",
-    "Marcatori"
+    "Simone Mor.",
+    "D📧DO",
+    "Davide",
+    "Federico",
+    "Carlo Cam.",
+    "Diego",
+    "Matteo But."
    ]
   },
   {
    "name": "Squadra B",
    "players": [
-    "Pierfra 3",
-    "Simone 4"
+    "Andrea",
+    "Pierfra Cai.",
+    "Stefano Pre.",
+    "francesco Ant.",
+    "Gabriele Per.",
+    "Giulio Mel.",
+    "Ale Ros."
    ]
   }
  ]
