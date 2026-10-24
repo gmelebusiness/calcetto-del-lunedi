@@ -84,6 +84,36 @@
   .missing { margin: 10px 4px 0; color: var(--wait); font-weight: 650; font-size: 14.5px; }
   .empty { padding: 14px; color: var(--muted); font-size: 14.5px; }
 
+  /* Squadre */
+  .teams { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+  .team { background: var(--card); border: 1px solid var(--line); border-radius: 16px; overflow: hidden; min-width: 0; }
+  .team h3 { font-size: 14px; font-weight: 700; padding: 10px 12px; border-bottom: 1px solid var(--line); display: flex; justify-content: space-between; gap: 6px; }
+  .team h3 span { color: var(--muted); font-weight: 600; }
+  .team:first-child h3 { background: var(--yes-bg); color: var(--yes); }
+  .team:nth-child(2) h3 { background: var(--wait-bg); color: var(--wait); }
+  .team ul { list-style: none; }
+  .team li { padding: 8px 12px; font-size: 15px; gap: 8px; }
+  .team li .who { font-size: 15px; }
+
+  /* Ultimi risultati */
+  .results { display: grid; gap: 10px; }
+  .result { background: var(--card); border: 1px solid var(--line); border-radius: 16px; padding: 12px 14px; }
+  .result .when { font-size: 12.5px; color: var(--muted); font-weight: 600; }
+  .score { display: grid; grid-template-columns: 1fr auto 1fr; align-items: center; gap: 10px; margin-top: 6px; }
+  .score .side { font-size: 14.5px; font-weight: 650; min-width: 0; overflow-wrap: anywhere; }
+  .score .side:last-child { text-align: right; }
+  .score .side.win { color: var(--yes); }
+  .score .nums { font-size: 26px; font-weight: 800; letter-spacing: -0.02em; font-variant-numeric: tabular-nums; white-space: nowrap; }
+  .scorers { margin-top: 8px; font-size: 13.5px; color: var(--muted); display: grid; grid-template-columns: 1fr 1fr; gap: 2px 12px; }
+  .scorers > div:nth-child(2n) { text-align: right; }
+  .scorers .goal { display: block; }
+  .scorers b { color: var(--ink); font-weight: 600; }
+  .result details { margin-top: 8px; font-size: 13.5px; color: var(--muted); }
+  .result summary { cursor: pointer; color: var(--accent); font-weight: 600; list-style: none; }
+  .result summary::-webkit-details-marker { display: none; }
+  .result details p { margin-top: 4px; }
+  .mine-name { color: var(--accent); font-weight: 700; }
+
   footer { margin-top: 26px; color: var(--muted); font-size: 12.5px; text-align: center; line-height: 1.6; }
   footer .stale { color: var(--wait); font-weight: 600; }
 </style>
@@ -114,9 +144,19 @@
     </div>
   </section>
 
+  <section id="teams-box" hidden>
+    <h2>Squadre</h2>
+    <div class="teams" id="teams"></div>
+  </section>
+
+  <section id="results-box" hidden>
+    <h2>Ultimi risultati</h2>
+    <div class="results" id="results"></div>
+  </section>
+
   <footer>
     <div id="updated"></div>
-    <div>Conta l'ordine in cui avete risposto «Ci sono» al sondaggio nel gruppo, al secondo.<br>Chi cambia idea riparte dall'orario del nuovo voto.</div>
+    <div>Conta l'ordine in cui avete risposto «Ci sono» al sondaggio nel gruppo, al secondo.<br>Chi cambia idea riparte dall'orario del nuovo voto.<br>Dopo la lista definitiva, chi dà forfait lascia il posto alla prima riserva.</div>
   </footer>
 </main>
 
@@ -151,15 +191,17 @@
         : 'Per ora non c’è nessun sondaggio.';
       $('me').hidden = true;
       $('lists').hidden = true;
+      $('teams-box').hidden = true;
     } else {
       $('title').textContent = cap(d.label);
       $('meta').innerHTML =
+        (d.gameTime ? '<span class="chip">Ore ' + esc(d.gameTime) + '</span>' : '') +
         '<span class="chip">Campo da ' + d.field + '</span>' +
         '<span class="chip">' + (d.keepers ? 'Con i portieri' : 'Senza portieri') + '</span>' +
         '<span class="chip">' + d.needed + ' posti</span>';
       if (d.status === 'definitiva') {
         $('status').className = 'status final';
-        $('status').innerHTML = '✅ <span><b>Lista definitiva</b>' + (d.lineupSentAt ? ', uscita ' + esc(longWhen(d.lineupSentAt)) : '') + '.</span>';
+        $('status').innerHTML = '✅ <span><b>Lista definitiva</b>' + (d.lineupSentAt ? ', uscita ' + esc(longWhen(d.lineupSentAt)) : '') + '. Se qualcuno dà forfait, entra la prima riserva.</span>';
       } else {
         $('status').className = 'status live';
         $('status').innerHTML = '⏳ <span><b>Lista provvisoria</b>, cambia a ogni voto.' + (d.lineupAt && Date.parse(d.lineupAt) > Date.now() ? ' La definitiva esce <b>' + esc(longWhen(d.lineupAt)) + '</b>.' : '') + '</span>';
@@ -175,7 +217,9 @@
       $('rcount').textContent = String(d.riserve.length);
       $('riserve').innerHTML = d.riserve.map(function (p, i) { return row(p, i, true); }).join('');
       renderMe();
+      renderTeams();
     }
+    renderResults();
     var updated = new Date(d.updatedAt);
     var stale = Date.now() - updated.getTime() > 36 * 3600 * 1000 && d.status !== 'nessuna';
     $('updated').innerHTML = (stale ? '<span class="stale">' : '<span>') + 'Aggiornata ' + esc(shortWhen(d.updatedAt).replace(', ', ' alle ')) + '</span>';
@@ -204,16 +248,74 @@
     if (i >= 0) {
       v.className = 'verdict show yes';
       $('verdict-big').textContent = final ? 'Sei convocato ✅' : 'Per ora sei dentro';
-      $('verdict-small').textContent = ordinal(i + 1) + ' su ' + d.needed + (final ? '. Ci vediamo ' + d.label.split(' ')[0] + '!' : '. La lista definitiva esce domenica.');
+      $('verdict-small').textContent = ordinal(i + 1) + ' su ' + d.needed + (final
+        ? '. Ci vediamo ' + d.label.split(' ')[0] + (d.gameTime ? ' alle ' + d.gameTime : '') + '!'
+        : '. La lista definitiva esce ' + (d.lineupAt ? dayTime(d.lineupAt) : 'il giorno della partita') + '.');
     } else if (r >= 0) {
       v.className = 'verdict show wait';
       $('verdict-big').textContent = (r === 0 ? 'Prima' : ordinal(r + 1)) + ' riserva';
-      $('verdict-small').textContent = final ? 'Se qualcuno dà forfait, tocca a te.' : 'Per ora sei fuori dai ' + d.needed + ': se qualcuno cambia idea, sali.';
+      $('verdict-small').textContent = final ? 'Se qualcuno dà forfait, tocca a te: ti arriva un messaggio.' : 'Per ora sei fuori dai ' + d.needed + ': se qualcuno cambia idea, sali.';
     } else {
       v.className = 'verdict show no';
       $('verdict-big').textContent = 'Non risulti tra i «Ci sono»';
       $('verdict-small').textContent = final ? 'La lista è chiusa: chiedi nel gruppo.' : 'Vota «Ci sono» nel sondaggio del gruppo per entrare in lista.';
     }
+  }
+
+  function dayTime(iso) { var d = new Date(iso); return DAYS[d.getDay()] + ' alle ' + d.getHours() + ':' + pad(d.getMinutes()); }
+
+  function who(name) {
+    return store.get('calcetto.me') === name ? '<span class="mine-name">' + esc(name) + '</span>' : esc(name);
+  }
+
+  function renderTeams() {
+    var t = data.teams;
+    $('teams-box').hidden = !(t && t.length);
+    if (!t || !t.length) return;
+    var me = store.get('calcetto.me');
+    $('teams').innerHTML = t.map(function (team) {
+      return '<div class="team"><h3>' + esc(team.name) + '<span>' + team.players.length + '</span></h3><ul>' +
+        team.players.map(function (p) { return '<li' + (p === me ? ' class="mine"' : '') + '><span class="who">' + esc(p) + '</span></li>'; }).join('') +
+        '</ul></div>';
+    }).join('');
+  }
+
+  function renderResults() {
+    var list = data.results || [];
+    $('results-box').hidden = !list.length;
+    if (!list.length) return;
+    $('results').innerHTML = list.map(function (r) {
+      var teams = r.teams || [];
+      var a = teams[0] ? teams[0].name : '';
+      var b = teams[1] ? teams[1].name : '';
+      var s = r.score;
+      var html = '<article class="result"><div class="when">' + esc(cap(r.label)) + '</div>';
+      if (s) {
+        html += '<div class="score"><span class="side' + (s[0] > s[1] ? ' win' : '') + '">' + esc(a) + '</span>' +
+          '<span class="nums">' + s[0] + ' – ' + s[1] + '</span>' +
+          '<span class="side' + (s[1] > s[0] ? ' win' : '') + '">' + esc(b) + '</span></div>';
+      }
+      var scorers = r.scorers || [];
+      if (scorers.length) {
+        var col = function (i) {
+          return scorers.filter(function (x) { return i === null ? x.team === null : x.team === i; })
+            .map(function (x) { return '<span class="goal">⚽ <b>' + who(x.name) + '</b>' + (x.goals > 1 ? ' ×' + x.goals : '') + '</span>'; }).join('');
+        };
+        if (teams.length === 2) {
+          html += '<div class="scorers"><div>' + (col(0) || '—') + '</div><div>' + (col(1) || '—') + '</div></div>';
+          var other = col(null);
+          if (other) html += '<div class="scorers"><div>' + other + '</div></div>';
+        } else {
+          html += '<div class="scorers"><div>' + col(null) + '</div></div>';
+        }
+      }
+      if (teams.length) {
+        html += '<details><summary>Le squadre</summary>' + teams.map(function (t) {
+          return '<p><b>' + esc(t.name) + ':</b> ' + t.players.map(who).join(', ') + '</p>';
+        }).join('') + '</details>';
+      }
+      return html + '</article>';
+    }).join('');
   }
 
   function indexOf(list, name) {
