@@ -1,13 +1,13 @@
 {
  "version": 1,
- "updatedAt": "2026-10-24T16:01:38.768Z",
+ "updatedAt": "2026-10-24T17:45:15.110Z",
  "title": "Sondaggio automatico - Lunedì prossimo",
  "field": 8,
  "keepers": true,
  "needed": 14,
  "nextPollAt": "2026-10-27T12:28:00.000Z",
  "nextWeek": "2026-11-02",
- "gameTime": "20:00",
+ "gameTime": "21:00",
  "results": [
   {
    "week": "2026-10-19",
@@ -128,7 +128,7 @@
  "missing": 0,
  "lineupAt": "2026-10-26T08:00:00.000Z",
  "lineupSentAt": null,
- "startsAt": "2026-10-26T19:00:00.000Z",
+ "startsAt": "2026-10-26T20:00:00.000Z",
  "teams": [
   {
    "name": "Squadra A",
