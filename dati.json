@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-10-24T15:30:34.374Z",
+ "updatedAt": "2026-10-24T15:32:01.806Z",
  "title": "Sondaggio automatico - Lunedì prossimo",
  "field": 8,
  "keepers": true,
@@ -17,7 +17,13 @@
     7
    ],
    "teams": [],
-   "scorers": []
+   "scorers": [
+    {
+     "name": "Giulio Mel.",
+     "goals": 2,
+     "team": null
+    }
+   ]
   }
  ],
  "week": "2026-10-26",
