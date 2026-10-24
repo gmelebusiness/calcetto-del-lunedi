@@ -7,6 +7,7 @@
 <meta name="theme-color" content="#0c1a12">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-title" content="Calcetto">
+<meta name="lucy-live" content="https://api.github.com/repos/gmelebusiness/calcetto-del-lunedi/contents/dati.json?ref=dati">
 <title>Calcetto · convocati</title>
 <style>
   :root {
@@ -95,7 +96,8 @@
   .team li { padding: 8px 12px; font-size: 15px; gap: 8px; }
   .team li .who { font-size: 15px; }
 
-  /* Ultimi risultati */
+  /* Ultimi risultati: staccati da quello che riguarda la prossima partita */
+  .results-box { margin-top: 30px; padding-top: 6px; border-top: 1px solid var(--line); }
   .results { display: grid; gap: 10px; }
   .result { background: var(--card); border: 1px solid var(--line); border-radius: 16px; padding: 12px 14px; }
   .result .when { font-size: 12.5px; color: var(--muted); font-weight: 600; }
@@ -145,11 +147,11 @@
   </section>
 
   <section id="teams-box" hidden>
-    <h2>Squadre</h2>
+    <h2>Squadre per la prossima giornata</h2>
     <div class="teams" id="teams"></div>
   </section>
 
-  <section id="results-box" hidden>
+  <section id="results-box" class="results-box" hidden>
     <h2>Ultimi risultati</h2>
     <div class="results" id="results"></div>
   </section>
@@ -328,18 +330,45 @@
     render();
   });
 
-  function load() {
-    // Su GitHub Pages: dati.json accanto alla pagina. In anteprima da Lucy: l'API.
-    var local = /\/calcetto\/pubblica\/?$/.test(location.pathname);
-    var url = local ? '/api/calcetto/public' : 'dati.json?t=' + Date.now();
+  // I dati in diretta: dall'API di GitHub (ramo «dati»), aggiornati pochi secondi dopo ogni voto.
+  // Se non risponde (es. troppi accessi dalla stessa rete) si usa dati.json, per 10 minuti.
+  var liveMeta = document.querySelector('meta[name="lucy-live"]');
+  var LIVE = liveMeta && /^https:\/\//.test(liveMeta.content) ? liveMeta.content : '';
+  var liveOffUntil = 0;
+
+  function get(url, raw, done) {
     var xhr = new XMLHttpRequest();
     xhr.open('GET', url);
+    if (raw) xhr.setRequestHeader('Accept', 'application/vnd.github.raw+json');
     xhr.onload = function () {
-      if (xhr.status !== 200) return failed();
-      try { data = JSON.parse(xhr.responseText); render(); } catch (e) { failed(); }
+      if (xhr.status !== 200) return done(null);
+      try { done(JSON.parse(xhr.responseText)); } catch (e) { done(null); }
     };
-    xhr.onerror = failed;
+    xhr.onerror = function () { done(null); };
     xhr.send();
+  }
+
+  function accept(next) {
+    // mai tornare a dati più vecchi di quelli già mostrati
+    if (data && next.updatedAt && data.updatedAt && Date.parse(next.updatedAt) < Date.parse(data.updatedAt)) return;
+    data = next;
+    render();
+  }
+
+  function load() {
+    // In anteprima da Lucy: l'API locale.
+    if (/\/calcetto\/pubblica\/?$/.test(location.pathname)) {
+      return get('/api/calcetto/public', false, function (d) { d ? accept(d) : failed(); });
+    }
+    var pages = function () { get('dati.json?t=' + Date.now(), false, function (d) { d ? accept(d) : failed(); }); };
+    if (LIVE && Date.now() > liveOffUntil) {
+      return get(LIVE + '&t=' + Date.now(), true, function (d) {
+        if (d) return accept(d);
+        liveOffUntil = Date.now() + 10 * 60 * 1000;
+        pages();
+      });
+    }
+    pages();
   }
   function failed() {
     if (data) return;
@@ -347,9 +376,9 @@
     $('status').className = 'status none';
     $('status').textContent = 'Non riesco a caricare la lista. Riprova tra poco.';
   }
-
   load();
-  setInterval(load, 60 * 1000);
+  // l'API di GitHub concede 60 letture l'ora per rete: in diretta una ogni 75 secondi (più quando riapri la pagina)
+  setInterval(load, LIVE ? 75 * 1000 : 60 * 1000);
   document.addEventListener('visibilitychange', function () { if (!document.hidden) load(); });
 })();
 </script>
