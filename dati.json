@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-10-24T15:32:01.806Z",
+ "updatedAt": "2026-10-24T15:33:28.023Z",
  "title": "Sondaggio automatico - Lunedì prossimo",
  "field": 8,
  "keepers": true,
@@ -129,5 +129,20 @@
  "lineupAt": "2026-10-26T08:00:00.000Z",
  "lineupSentAt": null,
  "startsAt": "2026-10-26T19:00:00.000Z",
- "teams": null
+ "teams": [
+  {
+   "name": "Squadra A",
+   "players": [
+    "Giulio 2",
+    "Marcatori"
+   ]
+  },
+  {
+   "name": "Squadra B",
+   "players": [
+    "Pierfra 3",
+    "Simone 4"
+   ]
+  }
+ ]
 }
