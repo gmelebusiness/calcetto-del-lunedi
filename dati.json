@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-10-24T11:45:44.031Z",
+ "updatedAt": "2026-10-24T11:51:47.635Z",
  "title": "Sondaggio automatico - Lunedì prossimo",
  "field": 8,
  "keepers": true,
@@ -36,10 +36,6 @@
    "at": "2026-10-20T11:28:10.795Z"
   },
   {
-   "name": "Riccardo Lit.",
-   "at": "2026-10-20T11:28:10.829Z"
-  },
-  {
    "name": "francesco Ant.",
    "at": "2026-10-20T11:28:11.023Z"
   },
@@ -66,17 +62,13 @@
   {
    "name": "Ale",
    "at": "2026-10-20T11:28:14.713Z"
-  }
- ],
- "riserve": [
+  },
   {
    "name": "Federico",
    "at": "2026-10-20T11:28:15.479Z"
-  },
-  {
-   "name": "Riccardo Pal.",
-   "at": "2026-10-20T11:28:20.021Z"
-  },
+  }
+ ],
+ "riserve": [
   {
    "name": "SBR_Impianti",
    "at": "2026-10-20T11:28:27.712Z"
