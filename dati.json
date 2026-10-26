@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-10-24T17:45:18.809Z",
+ "updatedAt": "2026-10-26T08:00:20.697Z",
  "title": "Sondaggio automatico - Lunedì prossimo",
  "field": 8,
  "keepers": true,
@@ -28,7 +28,7 @@
  ],
  "week": "2026-10-26",
  "label": "lunedì 26 ottobre",
- "status": "provvisoria",
+ "status": "definitiva",
  "convocati": [
   {
    "name": "Andrea",
@@ -127,7 +127,7 @@
  ],
  "missing": 0,
  "lineupAt": "2026-10-26T08:00:00.000Z",
- "lineupSentAt": null,
+ "lineupSentAt": "2026-10-26T08:00:19.206Z",
  "startsAt": "2026-10-26T20:00:00.000Z",
  "teams": [
   {
