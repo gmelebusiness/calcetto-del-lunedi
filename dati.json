@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-10-26T22:28:33.872Z",
+ "updatedAt": "2026-10-26T22:29:18.523Z",
  "title": "Sondaggio automatico - Lunedì prossimo",
  "field": 8,
  "keepers": true,
@@ -20,17 +20,16 @@
     {
      "name": "Squadra A",
      "players": [
-      "Carlo x3",
-      "Stefano x3",
-      "Simone Mor.",
-      "Marcatori"
+      "Carlo 3",
+      "Stefano 3",
+      "Simone Moro 1 ·"
      ]
     },
     {
      "name": "Squadra B",
      "players": [
-      "Diego x2",
-      "Checcox1"
+      "Diego 2",
+      "Checco 1"
      ]
     }
    ],
@@ -46,7 +45,7 @@
      "team": 0
     },
     {
-     "name": "Simone Mor.",
+     "name": "Simone Moro.",
      "goals": 1,
      "team": 0
     },
@@ -149,17 +148,16 @@
   {
    "name": "Squadra A",
    "players": [
-    "Carlo x3",
-    "Stefano x3",
-    "Simone Moro.",
-    "Marcatori"
+    "Carlo 3",
+    "Stefano 3",
+    "Simone Moro 1 ·"
    ]
   },
   {
    "name": "Squadra B",
    "players": [
-    "Diego x2",
-    "Checcox1"
+    "Diego 2",
+    "Checco 1"
    ]
   }
  ]
