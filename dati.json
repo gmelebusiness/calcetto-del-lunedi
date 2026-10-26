@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-10-26T22:30:30.064Z",
+ "updatedAt": "2026-10-26T23:00:27.865Z",
  "title": "Sondaggio automatico - Lunedì prossimo",
  "field": 8,
  "keepers": true,
@@ -78,87 +78,14 @@
    ]
   }
  ],
- "week": "2026-10-26",
- "label": "lunedì 26 ottobre",
- "status": "definitiva",
- "convocati": [
-  {
-   "name": "Andrea",
-   "at": "2026-10-20T11:28:09.823Z"
-  },
-  {
-   "name": "Simone More.",
-   "at": "2026-10-20T11:28:10.210Z"
-  },
-  {
-   "name": "D📧DO",
-   "at": "2026-10-20T11:28:10.481Z"
-  },
-  {
-   "name": "Pierfra Cai.",
-   "at": "2026-10-20T11:28:10.493Z"
-  },
-  {
-   "name": "Davide",
-   "at": "2026-10-26T10:00:33.089Z"
-  },
-  {
-   "name": "Stefano Pre.",
-   "at": "2026-10-20T11:28:10.795Z"
-  },
-  {
-   "name": "francesco Ant.",
-   "at": "2026-10-20T11:28:11.023Z"
-  },
-  {
-   "name": "Carlo Cam.",
-   "at": "2026-10-20T11:28:11.943Z"
-  },
-  {
-   "name": "Gabriele",
-   "at": "2026-10-20T11:28:12.255Z"
-  },
-  {
-   "name": "Diego",
-   "at": "2026-10-20T11:28:13.684Z"
-  },
-  {
-   "name": "Giulio Mel.",
-   "at": "2026-10-20T11:28:14.154Z"
-  },
-  {
-   "name": "Matteo🏂",
-   "at": "2026-10-20T11:28:14.249Z"
-  },
-  {
-   "name": "Ale",
-   "at": "2026-10-20T11:28:14.713Z"
-  },
-  {
-   "name": "Federico",
-   "at": "2026-10-20T11:28:15.479Z"
-  }
- ],
+ "week": null,
+ "label": null,
+ "status": "nessuna",
+ "convocati": [],
  "riserve": [],
  "missing": 0,
- "lineupAt": "2026-10-26T08:00:00.000Z",
- "lineupSentAt": "2026-10-26T10:00:33.089Z",
- "startsAt": "2026-10-26T20:00:00.000Z",
- "teams": [
-  {
-   "name": "Squadra A",
-   "players": [
-    "Carlo 3",
-    "Stefano 3",
-    "Simone Moro 1 ·"
-   ]
-  },
-  {
-   "name": "Squadra B",
-   "players": [
-    "Diego 2",
-    "Checco 1"
-   ]
-  }
- ]
+ "lineupAt": null,
+ "lineupSentAt": null,
+ "startsAt": null,
+ "teams": null
 }
