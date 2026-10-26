@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-10-26T10:00:34.100Z",
+ "updatedAt": "2026-10-26T22:23:58.575Z",
  "title": "Sondaggio automatico - Lunedì prossimo",
  "field": 8,
  "keepers": true,
@@ -35,7 +35,7 @@
    "at": "2026-10-20T11:28:09.823Z"
   },
   {
-   "name": "Simone Mor.",
+   "name": "Simone More.",
    "at": "2026-10-20T11:28:10.210Z"
   },
   {
@@ -96,25 +96,17 @@
   {
    "name": "Squadra A",
    "players": [
-    "Simone Mor.",
-    "D📧DO",
-    "Davide",
-    "Federico",
-    "Carlo Cam.",
-    "Diego",
-    "Matteo But."
+    "Carlo x3",
+    "Stefano x3",
+    "Simone Moro.",
+    "Marcatori"
    ]
   },
   {
    "name": "Squadra B",
    "players": [
-    "Andrea",
-    "Pierfra Cai.",
-    "Stefano Pre.",
-    "francesco Ant.",
-    "Gabriele Per.",
-    "Giulio Mel.",
-    "Ale Ros."
+    "Diego x2",
+    "Checcox1"
    ]
   }
  ]
