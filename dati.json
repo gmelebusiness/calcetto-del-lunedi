@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-10-26T09:55:37.652Z",
+ "updatedAt": "2026-10-26T10:00:34.100Z",
  "title": "Sondaggio automatico - Lunedì prossimo",
  "field": 8,
  "keepers": true,
@@ -47,6 +47,10 @@
    "at": "2026-10-20T11:28:10.493Z"
   },
   {
+   "name": "Davide",
+   "at": "2026-10-26T10:00:33.089Z"
+  },
+  {
    "name": "Stefano Pre.",
    "at": "2026-10-20T11:28:10.795Z"
   },
@@ -81,49 +85,12 @@
   {
    "name": "Federico",
    "at": "2026-10-20T11:28:15.479Z"
-  },
-  {
-   "name": "SBR_Impianti",
-   "at": "2026-10-20T11:28:27.712Z"
   }
  ],
- "riserve": [
-  {
-   "name": "Riccardo Pan.",
-   "at": "2026-10-20T11:28:27.814Z"
-  },
-  {
-   "name": "Simone De g.",
-   "at": "2026-10-20T11:28:29.174Z"
-  },
-  {
-   "name": "Speedy",
-   "at": "2026-10-20T11:29:35.736Z"
-  },
-  {
-   "name": "francesco Cap.",
-   "at": "2026-10-20T11:29:43.555Z"
-  },
-  {
-   "name": "Emanuele🫨",
-   "at": "2026-10-20T11:30:55.161Z"
-  },
-  {
-   "name": "Graziano Ven.",
-   "at": "2026-10-20T11:31:24.385Z"
-  },
-  {
-   "name": "Pierandrea Con.",
-   "at": "2026-10-20T11:32:39.206Z"
-  },
-  {
-   "name": "Gianmarco Pot.",
-   "at": "2026-10-20T12:16:54.689Z"
-  }
- ],
+ "riserve": [],
  "missing": 0,
  "lineupAt": "2026-10-26T08:00:00.000Z",
- "lineupSentAt": "2026-10-26T08:00:19.206Z",
+ "lineupSentAt": "2026-10-26T10:00:33.089Z",
  "startsAt": "2026-10-26T20:00:00.000Z",
  "teams": [
   {
