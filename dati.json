@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-10-26T22:23:58.575Z",
+ "updatedAt": "2026-10-26T22:28:33.872Z",
  "title": "Sondaggio automatico - Lunedì prossimo",
  "field": 8,
  "keepers": true,
@@ -9,6 +9,59 @@
  "nextWeek": "2026-11-02",
  "gameTime": "21:00",
  "results": [
+  {
+   "week": "2026-10-26",
+   "label": "lunedì 26 ottobre",
+   "score": [
+    7,
+    3
+   ],
+   "teams": [
+    {
+     "name": "Squadra A",
+     "players": [
+      "Carlo x3",
+      "Stefano x3",
+      "Simone Mor.",
+      "Marcatori"
+     ]
+    },
+    {
+     "name": "Squadra B",
+     "players": [
+      "Diego x2",
+      "Checcox1"
+     ]
+    }
+   ],
+   "scorers": [
+    {
+     "name": "Carlo x3",
+     "goals": 3,
+     "team": 0
+    },
+    {
+     "name": "Stefano x3",
+     "goals": 3,
+     "team": 0
+    },
+    {
+     "name": "Simone Mor.",
+     "goals": 1,
+     "team": 0
+    },
+    {
+     "name": "Diego x2",
+     "goals": 2,
+     "team": 1
+    },
+    {
+     "name": "Checcox1",
+     "goals": 1,
+     "team": 1
+    }
+   ]
+  },
   {
    "week": "2026-10-19",
    "label": "lunedì 19 ottobre",
