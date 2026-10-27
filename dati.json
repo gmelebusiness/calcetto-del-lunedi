@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-10-27T12:28:25.452Z",
+ "updatedAt": "2026-10-27T12:34:28.927Z",
  "title": "Sondaggio automatico - Lunedì prossimo",
  "field": 8,
  "keepers": true,
@@ -52,16 +52,110 @@
  "week": "2026-11-02",
  "label": "lunedì 2 novembre",
  "status": "provvisoria",
- "convocati": [],
+ "convocati": [
+  {
+   "name": "Giulio Mel.",
+   "at": "2026-10-27T12:28:31.398Z"
+  },
+  {
+   "name": "Matteo🏂",
+   "at": "2026-10-27T12:28:31.565Z"
+  },
+  {
+   "name": "Andrea",
+   "at": "2026-10-27T12:28:31.701Z"
+  },
+  {
+   "name": "Ale",
+   "at": "2026-10-27T12:28:31.792Z"
+  },
+  {
+   "name": "Riccardo Pan.",
+   "at": "2026-10-27T12:28:31.825Z"
+  },
+  {
+   "name": "SBR_Impianti",
+   "at": "2026-10-27T12:28:31.834Z"
+  },
+  {
+   "name": "Simone Mor.",
+   "at": "2026-10-27T12:28:31.883Z"
+  },
+  {
+   "name": "Emanuele🫨",
+   "at": "2026-10-27T12:28:32.052Z"
+  },
+  {
+   "name": "D📧DO",
+   "at": "2026-10-27T12:28:32.092Z"
+  },
+  {
+   "name": "Pierfra Cai.",
+   "at": "2026-10-27T12:28:32.126Z"
+  },
+  {
+   "name": "francesco Ant.",
+   "at": "2026-10-27T12:28:32.131Z"
+  },
+  {
+   "name": "Federico",
+   "at": "2026-10-27T12:28:32.146Z"
+  },
+  {
+   "name": "Carlo Cam.",
+   "at": "2026-10-27T12:28:32.251Z"
+  },
+  {
+   "name": "Pieroconte29",
+   "at": "2026-10-27T12:28:32.295Z"
+  }
+ ],
  "second": {
   "field": 8,
   "keepers": true,
   "needed": 14,
-  "convocati": [],
-  "missing": 14
+  "convocati": [
+   {
+    "name": "Stefano Pre.",
+    "at": "2026-10-27T12:28:32.631Z"
+   },
+   {
+    "name": "Speedy",
+    "at": "2026-10-27T12:28:33.171Z"
+   },
+   {
+    "name": "Alessandro Asd.",
+    "at": "2026-10-27T12:28:33.513Z"
+   },
+   {
+    "name": "Riccardo Pal.",
+    "at": "2026-10-27T12:28:36.511Z"
+   },
+   {
+    "name": "Davide",
+    "at": "2026-10-27T12:28:37.767Z"
+   },
+   {
+    "name": "Gianmarco Pot.",
+    "at": "2026-10-27T12:28:38.874Z"
+   },
+   {
+    "name": "Riccardo Lit.",
+    "at": "2026-10-27T12:29:32.688Z"
+   },
+   {
+    "name": "Gabriele",
+    "at": "2026-10-27T12:29:40.731Z"
+   },
+   {
+    "name": "Pierandrea Con.",
+    "at": "2026-10-27T12:30:29.254Z"
+   }
+  ],
+  "missing": 5
  },
  "riserve": [],
- "missing": 14,
+ "missing": 0,
  "lineupAt": "2026-11-02T08:00:00.000Z",
  "lineupSentAt": null,
  "startsAt": "2026-11-02T20:00:00.000Z",
