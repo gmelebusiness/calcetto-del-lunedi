@@ -72,8 +72,29 @@
   .verdict.wait { background: var(--wait-bg); color: var(--wait); }
   .verdict.no { background: var(--no-bg); color: var(--no); }
 
-  h2 { font-size: 13px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); font-weight: 650; margin: 20px 4px 8px; display: flex; justify-content: space-between; }
-  h2 span { letter-spacing: 0; text-transform: none; font-weight: 600; }
+  /* Le sezioni a tendina: si aprono e si chiudono toccando la riga, la scelta resta */
+  .sec { margin-top: 12px; }
+  .sec[hidden] { display: none; }
+  .sec > summary {
+    list-style: none; cursor: pointer; -webkit-tap-highlight-color: transparent; user-select: none; -webkit-user-select: none;
+    display: flex; align-items: center; gap: 10px; min-height: 48px; padding: 10px 14px;
+    background: var(--card); border: 1px solid var(--line); border-radius: 14px;
+  }
+  .sec > summary::-webkit-details-marker { display: none; }
+  .sec > summary:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+  .sec .st { flex: 1; font-size: 15.5px; font-weight: 700; letter-spacing: -0.005em; min-width: 0; }
+  .sec .cnt { color: var(--muted); font-size: 14px; font-weight: 650; font-variant-numeric: tabular-nums; white-space: nowrap; }
+  .sec .cnt.full { color: var(--yes); }
+  .sec .you { background: var(--yes-bg); color: var(--yes); border-radius: 999px; padding: 1px 8px; font-size: 12px; font-weight: 700; white-space: nowrap; }
+  .sec.riserve .you { background: var(--wait-bg); color: var(--wait); }
+  .sec[open] .you { display: none; }
+  .sec .chev { width: 9px; height: 9px; border-right: 2px solid var(--muted); border-bottom: 2px solid var(--muted); transform: rotate(45deg) translate(-2px, -2px); transition: transform 0.18s ease; flex-shrink: 0; }
+  .sec[open] .chev { transform: rotate(-135deg) translate(-2px, -2px); }
+  .sec[open] > summary { border-radius: 14px 14px 4px 4px; }
+  .sec .body { padding-top: 6px; }
+  .sec .sub { color: var(--muted); font-size: 13px; margin: 2px 4px 8px; }
+  .sec .sub:empty { display: none; }
+  @media (prefers-reduced-motion: reduce) { .sec .chev { transition: none; } }
   ol { list-style: none; background: var(--card); border: 1px solid var(--line); border-radius: 16px; overflow: hidden; }
   li { display: flex; align-items: center; gap: 12px; padding: 11px 14px; border-top: 1px solid var(--line); }
   li:first-child { border-top: 0; }
@@ -97,7 +118,7 @@
   .team li .who { font-size: 15px; }
 
   /* Ultimi risultati: staccati da quello che riguarda la prossima partita */
-  .results-box { margin-top: 30px; padding-top: 6px; border-top: 1px solid var(--line); }
+  .results-box { margin-top: 26px; padding-top: 14px; border-top: 1px solid var(--line); }
   .results { display: grid; gap: 10px; }
   .result { background: var(--card); border: 1px solid var(--line); border-radius: 16px; padding: 12px 14px; }
   .result .when { font-size: 12.5px; color: var(--muted); font-weight: 600; }
@@ -133,28 +154,45 @@
   </section>
 
   <section id="lists" hidden>
-    <h2>Convocati <span id="count"></span></h2>
-    <ol id="convocati"></ol>
-    <p class="missing" id="missing" hidden></p>
-    <div class="riserve" id="riserve-box" hidden>
-      <h2>Riserve <span id="rcount"></span></h2>
-      <ol id="riserve"></ol>
-    </div>
+    <details class="sec" id="sec-first" data-key="prima" open>
+      <summary><span class="st" id="first-title">Convocati</span><span class="you" hidden>ci sei tu</span><span class="cnt" id="count"></span><span class="chev" aria-hidden="true"></span></summary>
+      <div class="body">
+        <p class="sub" id="first-sub"></p>
+        <ol id="convocati"></ol>
+        <p class="missing" id="missing" hidden></p>
+      </div>
+    </details>
+    <details class="sec" id="sec-second" data-key="seconda" open hidden>
+      <summary><span class="st">Convocati seconda partita</span><span class="you" hidden>ci sei tu</span><span class="cnt" id="count2"></span><span class="chev" aria-hidden="true"></span></summary>
+      <div class="body">
+        <p class="sub" id="second-sub"></p>
+        <ol id="convocati2"></ol>
+        <p class="missing" id="missing2" hidden></p>
+      </div>
+    </details>
+    <details class="sec riserve" id="riserve-box" data-key="riserve" hidden>
+      <summary><span class="st">Riserve</span><span class="you" hidden>ci sei tu</span><span class="cnt" id="rcount"></span><span class="chev" aria-hidden="true"></span></summary>
+      <div class="body">
+        <ol id="riserve"></ol>
+      </div>
+    </details>
   </section>
 
-  <section id="teams-box" hidden>
-    <h2>Squadre per la prossima giornata</h2>
-    <div class="teams" id="teams"></div>
-  </section>
+  <details class="sec" id="teams-box" data-key="squadre" open hidden>
+    <summary><span class="st">Squadre per la prossima giornata</span><span class="chev" aria-hidden="true"></span></summary>
+    <div class="body"><div class="teams" id="teams"></div></div>
+  </details>
 
-  <section id="results-box" class="results-box" hidden>
-    <h2>Ultimi risultati</h2>
-    <div class="results" id="results"></div>
-  </section>
+  <div class="results-box" id="results-box" hidden>
+    <details class="sec" data-key="risultati" open style="margin-top:0">
+      <summary><span class="st">Ultimi risultati</span><span class="cnt" id="results-count"></span><span class="chev" aria-hidden="true"></span></summary>
+      <div class="body"><div class="results" id="results"></div></div>
+    </details>
+  </div>
 
   <footer>
     <div id="updated"></div>
-    <div>Conta l'ordine in cui avete risposto «Ci sono» al sondaggio nel gruppo, al secondo.<br>Chi cambia idea riparte dall'orario del nuovo voto.<br>Dopo la lista definitiva, chi dà forfait lascia il posto alla prima riserva.</div>
+    <div>Conta l'ordine in cui avete risposto «Ci sono» al sondaggio nel gruppo, al secondo.<br>Chi cambia idea riparte dall'orario del nuovo voto.<br><span id="rule">Dopo la lista definitiva, chi dà forfait lascia il posto alla prima riserva.</span></div>
   </footer>
 </main>
 
@@ -191,29 +229,51 @@
       $('lists').hidden = true;
       $('teams-box').hidden = true;
     } else {
+      var two = !!d.second;
       $('title').textContent = cap(d.label);
-      $('meta').innerHTML =
-        (d.gameTime ? '<span class="chip">Ore ' + esc(d.gameTime) + '</span>' : '') +
-        '<span class="chip">Campo da ' + d.field + '</span>' +
-        '<span class="chip">' + (d.keepers ? 'Con i portieri' : 'Senza portieri') + '</span>' +
-        '<span class="chip">' + d.needed + ' posti</span>';
+      $('meta').innerHTML = two
+        ? (d.gameTime ? '<span class="chip">Ore ' + esc(d.gameTime) + '</span>' : '') +
+          '<span class="chip">2 partite</span>' +
+          '<span class="chip">' + (d.needed + d.second.needed) + ' posti</span>'
+        : (d.gameTime ? '<span class="chip">Ore ' + esc(d.gameTime) + '</span>' : '') +
+          '<span class="chip">Campo da ' + d.field + '</span>' +
+          '<span class="chip">' + (d.keepers ? 'Con i portieri' : 'Senza portieri') + '</span>' +
+          '<span class="chip">' + d.needed + ' posti</span>';
+      var rule = two
+        ? 'Se qualcuno dà forfait nella prima partita, sale il primo della seconda.'
+        : 'Se qualcuno dà forfait, entra la prima riserva.';
+      $('rule').textContent = two
+        ? 'Dopo la lista definitiva, chi dà forfait nella prima partita lascia il posto al primo della seconda, e nella seconda entra la prima riserva.'
+        : 'Dopo la lista definitiva, chi dà forfait lascia il posto alla prima riserva.';
       if (d.status === 'definitiva') {
         $('status').className = 'status final';
-        $('status').innerHTML = '✅ <span><b>Lista definitiva</b>' + (d.lineupSentAt ? ', uscita ' + esc(longWhen(d.lineupSentAt)) : '') + '. Se qualcuno dà forfait, entra la prima riserva.</span>';
+        $('status').innerHTML = '✅ <span><b>Lista definitiva</b>' + (d.lineupSentAt ? ', uscita ' + esc(longWhen(d.lineupSentAt)) : '') + '. ' + rule + '</span>';
       } else {
         $('status').className = 'status live';
         $('status').innerHTML = '⏳ <span><b>Lista provvisoria</b>, cambia a ogni voto.' + (d.lineupAt && Date.parse(d.lineupAt) > Date.now() ? ' La definitiva esce <b>' + esc(longWhen(d.lineupAt)) + '</b>.' : '') + '</span>';
       }
       $('lists').hidden = false;
-      $('count').textContent = d.convocati.length + '/' + d.needed;
+      $('first-title').textContent = two ? 'Convocati prima partita' : 'Convocati';
+      $('first-sub').textContent = two ? settingsText(d) : '';
+      count($('count'), d.convocati.length, d.needed);
       $('convocati').innerHTML = d.convocati.length
         ? d.convocati.map(function (p, i) { return row(p, i, false); }).join('')
         : '<li class="empty">Nessuno ha ancora risposto «Ci sono».</li>';
-      $('missing').hidden = !d.missing;
-      $('missing').textContent = d.missing === 1 ? 'Manca 1 giocatore.' : 'Mancano ' + d.missing + ' giocatori.';
+      missing($('missing'), d.missing);
+      $('sec-second').hidden = !two;
+      if (two) {
+        var s = d.second;
+        $('second-sub').textContent = settingsText(s);
+        count($('count2'), s.convocati.length, s.needed);
+        $('convocati2').innerHTML = s.convocati.length
+          ? s.convocati.map(function (p, i) { return row(p, i, false); }).join('')
+          : '<li class="empty">Ancora nessuno: si riempie dopo la prima partita.</li>';
+        missing($('missing2'), s.missing);
+      }
       $('riserve-box').hidden = !d.riserve.length;
       $('rcount').textContent = String(d.riserve.length);
       $('riserve').innerHTML = d.riserve.map(function (p, i) { return row(p, i, true); }).join('');
+      markMine();
       renderMe();
       renderTeams();
     }
@@ -221,6 +281,26 @@
     var updated = new Date(d.updatedAt);
     var stale = Date.now() - updated.getTime() > 36 * 3600 * 1000 && d.status !== 'nessuna';
     $('updated').innerHTML = (stale ? '<span class="stale">' : '<span>') + 'Aggiornata ' + esc(shortWhen(d.updatedAt).replace(', ', ' alle ')) + '</span>';
+  }
+
+  function settingsText(s) {
+    return 'Campo da ' + s.field + ' · ' + (s.keepers ? 'con i portieri' : 'senza portieri') + ' · ' + s.needed + ' posti';
+  }
+  function count(el, n, needed) {
+    el.textContent = n + '/' + needed;
+    el.className = 'cnt' + (n >= needed ? ' full' : '');
+  }
+  function missing(el, n) {
+    el.hidden = !n;
+    el.textContent = n === 1 ? 'Manca 1 giocatore.' : 'Mancano ' + n + ' giocatori.';
+  }
+  // «ci sei tu» sulla riga di una sezione chiusa
+  function markMine() {
+    var me = store.get('calcetto.me');
+    var lists = [['sec-first', data.convocati], ['sec-second', data.second ? data.second.convocati : []], ['riserve-box', data.riserve]];
+    lists.forEach(function (pair) {
+      $(pair[0]).querySelector('.you').hidden = !(me && indexOf(pair[1], me) >= 0);
+    });
   }
 
   function row(p, i, reserve) {
@@ -231,7 +311,8 @@
 
   function renderMe() {
     var d = data;
-    var names = d.convocati.concat(d.riserve).map(function (p) { return p.name; });
+    var second = d.second ? d.second.convocati : [];
+    var names = d.convocati.concat(second, d.riserve).map(function (p) { return p.name; });
     var saved = store.get('calcetto.me') || '';
     var options = '<option value="">Scegli il tuo nome…</option>' + names.slice().sort(function (a, b) { return a.localeCompare(b, 'it'); })
       .map(function (n) { return '<option' + (n === saved ? ' selected' : '') + '>' + esc(n) + '</option>'; }).join('') +
@@ -241,18 +322,31 @@
     var v = $('verdict');
     if (!saved) { v.className = 'verdict'; return; }
     var i = indexOf(d.convocati, saved);
+    var j = indexOf(second, saved);
     var r = indexOf(d.riserve, saved);
     var final = d.status === 'definitiva';
+    var two = !!d.second;
+    var seeYou = '. Ci vediamo ' + d.label.split(' ')[0] + (d.gameTime ? ' alle ' + d.gameTime : '') + '!';
+    var finalAt = '. La lista definitiva esce ' + (d.lineupAt ? dayTime(d.lineupAt) : 'il giorno della partita') + '.';
     if (i >= 0) {
       v.className = 'verdict show yes';
-      $('verdict-big').textContent = final ? 'Sei convocato ✅' : 'Per ora sei dentro';
-      $('verdict-small').textContent = ordinal(i + 1) + ' su ' + d.needed + (final
-        ? '. Ci vediamo ' + d.label.split(' ')[0] + (d.gameTime ? ' alle ' + d.gameTime : '') + '!'
-        : '. La lista definitiva esce ' + (d.lineupAt ? dayTime(d.lineupAt) : 'il giorno della partita') + '.');
+      $('verdict-big').textContent = final ? (two ? 'Prima partita ✅' : 'Sei convocato ✅') : (two ? 'Per ora sei nella prima partita' : 'Per ora sei dentro');
+      $('verdict-small').textContent = ordinal(i + 1) + ' su ' + d.needed + (final ? seeYou : finalAt);
+    } else if (j >= 0) {
+      var s = d.second;
+      var lack = s.missing ? ' Per ora mancano ' + (s.missing === 1 ? '1 giocatore' : s.missing + ' giocatori') + '.' : '';
+      v.className = 'verdict show yes';
+      $('verdict-big').textContent = final ? 'Seconda partita ✅' : 'Per ora sei nella seconda partita';
+      $('verdict-small').textContent = ordinal(j + 1) + ' su ' + s.needed + (final
+        ? seeYou + lack + ' Se qualcuno dà forfait nella prima, sali tu.'
+        : finalAt + lack);
     } else if (r >= 0) {
+      var total = d.needed + (two ? d.second.needed : 0);
       v.className = 'verdict show wait';
       $('verdict-big').textContent = (r === 0 ? 'Prima' : ordinal(r + 1)) + ' riserva';
-      $('verdict-small').textContent = final ? 'Se qualcuno dà forfait, tocca a te: ti arriva un messaggio.' : 'Per ora sei fuori dai ' + d.needed + ': se qualcuno cambia idea, sali.';
+      $('verdict-small').textContent = final
+        ? 'Se qualcuno dà forfait' + (two ? ' nella seconda partita' : '') + ', tocca a te: ti arriva un messaggio.'
+        : 'Per ora sei fuori dai ' + total + ': se qualcuno cambia idea, sali.';
     } else {
       v.className = 'verdict show no';
       $('verdict-big').textContent = 'Non risulti tra i «Ci sono»';
@@ -282,6 +376,7 @@
     var list = data.results || [];
     $('results-box').hidden = !list.length;
     if (!list.length) return;
+    $('results-count').textContent = String(list.length);
     $('results').innerHTML = list.map(function (r) {
       var sides = r.sides || (r.teams || []).map(function (t) { return t.name; });
       var a = sides[0] || 'Squadra A';
@@ -312,6 +407,14 @@
     for (var i = 0; i < list.length; i++) if (list[i].name === name) return i;
     return -1;
   }
+
+  // Le sezioni a tendina: ognuno tiene aperte quelle che vuole (le riserve partono chiuse).
+  Array.prototype.forEach.call(document.querySelectorAll('details.sec[data-key]'), function (el) {
+    var saved = store.get('calcetto.open.' + el.dataset.key);
+    if (saved === '1') el.open = true;
+    else if (saved === '0') el.open = false;
+    el.addEventListener('toggle', function () { store.set('calcetto.open.' + el.dataset.key, el.open ? '1' : '0'); });
+  });
 
   $('who').addEventListener('change', function () {
     store.set('calcetto.me', this.value);
