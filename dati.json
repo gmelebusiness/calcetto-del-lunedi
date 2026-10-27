@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-10-27T13:01:29.162Z",
+ "updatedAt": "2026-10-27T14:31:07.439Z",
  "title": "Sondaggio automatico - Lunedì prossimo",
  "field": 7,
  "keepers": false,
@@ -150,9 +150,13 @@
    {
     "name": "Pierandrea Con.",
     "at": "2026-10-27T12:30:29.254Z"
+   },
+   {
+    "name": "francesco Cap.",
+    "at": "2026-10-27T14:31:08.597Z"
    }
   ],
-  "missing": 3
+  "missing": 2
  },
  "riserve": [],
  "missing": 0,
