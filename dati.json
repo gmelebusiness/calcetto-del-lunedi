@@ -1,12 +1,12 @@
 {
  "version": 1,
- "updatedAt": "2026-10-27T10:28:57.158Z",
+ "updatedAt": "2026-10-27T12:28:27.950Z",
  "title": "Sondaggio automatico - Lunedì prossimo",
  "field": 8,
  "keepers": true,
  "needed": 14,
- "nextPollAt": "2026-10-27T12:28:00.000Z",
- "nextWeek": "2026-11-02",
+ "nextPollAt": "2026-11-03T12:28:00.000Z",
+ "nextWeek": "2026-11-09",
  "gameTime": "21:00",
  "results": [
   {
@@ -49,21 +49,87 @@
    ]
   }
  ],
- "week": null,
- "label": null,
- "status": "nessuna",
- "convocati": [],
+ "week": "2026-11-02",
+ "label": "lunedì 2 novembre",
+ "status": "provvisoria",
+ "convocati": [
+  {
+   "name": "Giulio Mel.",
+   "at": "2026-10-27T12:28:31.398Z"
+  },
+  {
+   "name": "Matteo🏂",
+   "at": "2026-10-27T12:28:31.565Z"
+  },
+  {
+   "name": "Andrea",
+   "at": "2026-10-27T12:28:31.701Z"
+  },
+  {
+   "name": "Ale",
+   "at": "2026-10-27T12:28:31.792Z"
+  },
+  {
+   "name": "Riccardo Pan.",
+   "at": "2026-10-27T12:28:31.825Z"
+  },
+  {
+   "name": "SBR_Impianti",
+   "at": "2026-10-27T12:28:31.834Z"
+  },
+  {
+   "name": "Simone Mor.",
+   "at": "2026-10-27T12:28:31.883Z"
+  },
+  {
+   "name": "Emanuele🫨",
+   "at": "2026-10-27T12:28:32.052Z"
+  },
+  {
+   "name": "D📧DO",
+   "at": "2026-10-27T12:28:32.092Z"
+  },
+  {
+   "name": "Pierfra Cai.",
+   "at": "2026-10-27T12:28:32.126Z"
+  },
+  {
+   "name": "francesco Ant.",
+   "at": "2026-10-27T12:28:32.131Z"
+  },
+  {
+   "name": "Federico",
+   "at": "2026-10-27T12:28:32.146Z"
+  },
+  {
+   "name": "Carlo Cam.",
+   "at": "2026-10-27T12:28:32.251Z"
+  },
+  {
+   "name": "Pieroconte29",
+   "at": "2026-10-27T12:28:32.295Z"
+  }
+ ],
  "second": {
   "field": 8,
   "keepers": true,
   "needed": 14,
-  "convocati": [],
-  "missing": 0
+  "convocati": [
+   {
+    "name": "Stefano Pre.",
+    "at": "2026-10-27T12:28:32.631Z"
+   },
+   {
+    "name": "Speedy",
+    "at": "2026-10-27T12:28:33.171Z"
+   }
+  ],
+  "missing": 12
  },
  "riserve": [],
  "missing": 0,
- "lineupAt": null,
+ "lineupAt": "2026-11-02T08:00:00.000Z",
  "lineupSentAt": null,
- "startsAt": null,
+ "startsAt": "2026-11-02T20:00:00.000Z",
  "teams": null
 }
