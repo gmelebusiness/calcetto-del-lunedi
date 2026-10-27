@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-10-27T10:02:12.584Z",
+ "updatedAt": "2026-10-27T10:03:00.547Z",
  "title": "Sondaggio automatico - Lunedì prossimo",
  "field": 8,
  "keepers": true,
@@ -22,27 +22,27 @@
    ],
    "scorers": [
     {
-     "name": "Carlo 3",
+     "name": "Carlo",
      "goals": 3,
      "team": 0
     },
     {
-     "name": "Stefano 3",
+     "name": "Stefano",
      "goals": 3,
      "team": 0
     },
     {
-     "name": "Simone Moro 1 ·",
+     "name": "Simone Moro",
      "goals": 1,
      "team": 0
     },
     {
-     "name": "Diego 2",
+     "name": "Diego",
      "goals": 2,
      "team": 1
     },
     {
-     "name": "Checco 1",
+     "name": "Checco",
      "goals": 1,
      "team": 1
     }
