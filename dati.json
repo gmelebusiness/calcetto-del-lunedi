@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-10-27T13:01:04.479Z",
+ "updatedAt": "2026-10-27T13:01:26.797Z",
  "title": "Sondaggio automatico - Lunedì prossimo",
  "field": 7,
  "keepers": false,
@@ -111,9 +111,9 @@
   }
  ],
  "second": {
-  "field": 7,
+  "field": 6,
   "keepers": false,
-  "needed": 14,
+  "needed": 12,
   "convocati": [
    {
     "name": "Stefano Pre.",
@@ -152,7 +152,7 @@
     "at": "2026-10-27T12:30:29.254Z"
    }
   ],
-  "missing": 5
+  "missing": 3
  },
  "riserve": [],
  "missing": 0,
