@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-10-26T23:00:27.865Z",
+ "updatedAt": "2026-10-27T10:02:16.015Z",
  "title": "Sondaggio automatico - Lunedì prossimo",
  "field": 8,
  "keepers": true,
@@ -16,22 +16,9 @@
     7,
     3
    ],
-   "teams": [
-    {
-     "name": "Squadra A",
-     "players": [
-      "Carlo 3",
-      "Stefano 3",
-      "Simone Mor."
-     ]
-    },
-    {
-     "name": "Squadra B",
-     "players": [
-      "Diego 2",
-      "Checco 1"
-     ]
-    }
+   "sides": [
+    "Squadra A",
+    "Squadra B"
    ],
    "scorers": [
     {
@@ -45,7 +32,7 @@
      "team": 0
     },
     {
-     "name": "Simone Mor.",
+     "name": "Simone Moro 1 ·",
      "goals": 1,
      "team": 0
     },
@@ -58,22 +45,6 @@
      "name": "Checco 1",
      "goals": 1,
      "team": 1
-    }
-   ]
-  },
-  {
-   "week": "2026-10-19",
-   "label": "lunedì 19 ottobre",
-   "score": [
-    2,
-    7
-   ],
-   "teams": [],
-   "scorers": [
-    {
-     "name": "Giulio Mel.",
-     "goals": 2,
-     "team": null
     }
    ]
   }
