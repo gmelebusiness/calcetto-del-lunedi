@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-10-27T12:28:41.455Z",
+ "updatedAt": "2026-10-27T12:29:31.442Z",
  "title": "Sondaggio automatico - Lunedì prossimo",
  "field": 8,
  "keepers": true,
@@ -138,9 +138,13 @@
    {
     "name": "Gianmarco Pot.",
     "at": "2026-10-27T12:28:38.874Z"
+   },
+   {
+    "name": "Riccardo Lit.",
+    "at": "2026-10-27T12:29:32.688Z"
    }
   ],
-  "missing": 8
+  "missing": 7
  },
  "riserve": [],
  "missing": 0,
