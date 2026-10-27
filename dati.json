@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-10-27T10:03:00.547Z",
+ "updatedAt": "2026-10-27T10:28:53.823Z",
  "title": "Sondaggio automatico - Lunedì prossimo",
  "field": 8,
  "keepers": true,
@@ -53,6 +53,13 @@
  "label": null,
  "status": "nessuna",
  "convocati": [],
+ "second": {
+  "field": 8,
+  "keepers": true,
+  "needed": 14,
+  "convocati": [],
+  "missing": 0
+ },
  "riserve": [],
  "missing": 0,
  "lineupAt": null,
