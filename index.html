@@ -110,10 +110,6 @@
   .scorers > div:nth-child(2n) { text-align: right; }
   .scorers .goal { display: block; }
   .scorers b { color: var(--ink); font-weight: 600; }
-  .result details { margin-top: 8px; font-size: 13.5px; color: var(--muted); }
-  .result summary { cursor: pointer; color: var(--accent); font-weight: 600; list-style: none; }
-  .result summary::-webkit-details-marker { display: none; }
-  .result details p { margin-top: 4px; }
   .mine-name { color: var(--accent); font-weight: 700; }
 
   footer { margin-top: 26px; color: var(--muted); font-size: 12.5px; text-align: center; line-height: 1.6; }
@@ -287,9 +283,9 @@
     $('results-box').hidden = !list.length;
     if (!list.length) return;
     $('results').innerHTML = list.map(function (r) {
-      var teams = r.teams || [];
-      var a = teams[0] ? teams[0].name : '';
-      var b = teams[1] ? teams[1].name : '';
+      var sides = r.sides || (r.teams || []).map(function (t) { return t.name; });
+      var a = sides[0] || 'Squadra A';
+      var b = sides[1] || 'Squadra B';
       var s = r.score;
       var html = '<article class="result"><div class="when">' + esc(cap(r.label)) + '</div>';
       if (s) {
@@ -303,18 +299,10 @@
           return scorers.filter(function (x) { return i === null ? x.team === null : x.team === i; })
             .map(function (x) { return '<span class="goal">⚽ <b>' + who(x.name) + '</b>' + (x.goals > 1 ? ' ×' + x.goals : '') + '</span>'; }).join('');
         };
-        if (teams.length === 2) {
-          html += '<div class="scorers"><div>' + (col(0) || '—') + '</div><div>' + (col(1) || '—') + '</div></div>';
-          var other = col(null);
-          if (other) html += '<div class="scorers"><div>' + other + '</div></div>';
-        } else {
-          html += '<div class="scorers"><div>' + col(null) + '</div></div>';
-        }
-      }
-      if (teams.length) {
-        html += '<details><summary>Le squadre</summary>' + teams.map(function (t) {
-          return '<p><b>' + esc(t.name) + ':</b> ' + t.players.map(who).join(', ') + '</p>';
-        }).join('') + '</details>';
+        var split = scorers.some(function (x) { return x.team === 0 || x.team === 1; });
+        if (split) html += '<div class="scorers"><div>' + (col(0) || '—') + '</div><div>' + (col(1) || '—') + '</div></div>';
+        var other = col(null);
+        if (other) html += '<div class="scorers"><div>' + other + '</div></div>';
       }
       return html + '</article>';
     }).join('');
