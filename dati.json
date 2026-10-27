@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-10-27T12:28:27.950Z",
+ "updatedAt": "2026-10-27T12:28:32.087Z",
  "title": "Sondaggio automatico - Lunedì prossimo",
  "field": 8,
  "keepers": true,
@@ -122,9 +122,21 @@
    {
     "name": "Speedy",
     "at": "2026-10-27T12:28:33.171Z"
+   },
+   {
+    "name": "Alessandro Asd.",
+    "at": "2026-10-27T12:28:33.513Z"
+   },
+   {
+    "name": "Gianmarco Pot.",
+    "at": "2026-10-27T12:28:33.972Z"
+   },
+   {
+    "name": "Riccardo Pal.",
+    "at": "2026-10-27T12:28:36.511Z"
    }
   ],
-  "missing": 12
+  "missing": 9
  },
  "riserve": [],
  "missing": 0,
