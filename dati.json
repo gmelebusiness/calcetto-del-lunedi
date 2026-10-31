@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-10-30T18:19:13.453Z",
+ "updatedAt": "2026-10-31T16:19:40.685Z",
  "title": "Sondaggio automatico - Lunedì prossimo",
  "field": 7,
  "keepers": false,
@@ -120,10 +120,6 @@
     "at": "2026-10-27T12:28:36.511Z"
    },
    {
-    "name": "Davide",
-    "at": "2026-10-27T12:28:37.767Z"
-   },
-   {
     "name": "Gianmarco Pot.",
     "at": "2026-10-27T12:28:38.874Z"
    },
@@ -144,7 +140,7 @@
     "at": "2026-10-27T14:35:10.396Z"
    }
   ],
-  "missing": 5
+  "missing": 6
  },
  "riserve": [],
  "missing": 0,
