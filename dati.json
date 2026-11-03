@@ -1,12 +1,12 @@
 {
  "version": 1,
- "updatedAt": "2026-11-03T12:00:49.055Z",
+ "updatedAt": "2026-11-03T12:28:20.061Z",
  "title": "Sondaggio automatico - Lunedì prossimo",
  "field": 7,
  "keepers": false,
  "needed": 14,
- "nextPollAt": "2026-11-03T12:28:00.000Z",
- "nextWeek": "2026-11-09",
+ "nextPollAt": "2026-11-10T12:28:00.000Z",
+ "nextWeek": "2026-11-16",
  "gameTime": "20:00",
  "results": [
   {
@@ -49,21 +49,21 @@
    ]
   }
  ],
- "week": null,
- "label": null,
- "status": "nessuna",
+ "week": "2026-11-09",
+ "label": "lunedì 9 novembre",
+ "status": "provvisoria",
  "convocati": [],
  "second": {
   "field": 6,
   "keepers": false,
   "needed": 12,
   "convocati": [],
-  "missing": 0
+  "missing": 12
  },
  "riserve": [],
- "missing": 0,
- "lineupAt": null,
+ "missing": 14,
+ "lineupAt": "2026-11-09T08:00:00.000Z",
  "lineupSentAt": null,
- "startsAt": null,
+ "startsAt": "2026-11-09T19:00:00.000Z",
  "teams": null
 }
