@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-11-03T12:46:25.150Z",
+ "updatedAt": "2026-11-03T12:46:56.833Z",
  "title": "Sondaggio automatico - Lunedì prossimo",
  "field": 7,
  "keepers": false,
@@ -52,7 +52,32 @@
  "week": "2026-11-09",
  "label": "lunedì 9 novembre",
  "status": "provvisoria",
- "convocati": [],
+ "convocati": [
+  {
+   "name": "Giulio Mel.",
+   "at": "2026-11-03T12:29:26.909Z"
+  },
+  {
+   "name": "Pieroconte29",
+   "at": "2026-11-03T12:29:34.128Z"
+  },
+  {
+   "name": "Riccardo Pal.",
+   "at": "2026-11-03T12:32:50.144Z"
+  },
+  {
+   "name": "Gabriele",
+   "at": "2026-11-03T12:33:36.960Z"
+  },
+  {
+   "name": "francesco Cap.",
+   "at": "2026-11-03T12:33:48.405Z"
+  },
+  {
+   "name": "Riccardo Pan.",
+   "at": "2026-11-03T12:34:12.789Z"
+  }
+ ],
  "second": {
   "field": 6,
   "keepers": false,
@@ -61,7 +86,7 @@
   "missing": 12
  },
  "riserve": [],
- "missing": 14,
+ "missing": 8,
  "lineupAt": "2026-11-09T08:00:00.000Z",
  "lineupSentAt": null,
  "startsAt": "2026-11-09T19:00:00.000Z",
