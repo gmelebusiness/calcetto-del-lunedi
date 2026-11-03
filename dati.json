@@ -1,10 +1,10 @@
 {
  "version": 1,
- "updatedAt": "2026-11-03T13:00:50.579Z",
+ "updatedAt": "2026-11-03T13:10:21.488Z",
  "title": "Sondaggio automatico - Lunedì prossimo",
  "field": 7,
- "keepers": false,
- "needed": 14,
+ "keepers": true,
+ "needed": 12,
  "nextPollAt": "2026-11-10T12:28:00.000Z",
  "nextWeek": "2026-11-16",
  "gameTime": "20:00",
@@ -100,14 +100,6 @@
   {
    "name": "Diego Cal.",
    "at": "2026-11-03T12:55:36.607Z"
-  },
-  {
-   "name": "Giordano Tau.",
-   "at": "2026-11-03T12:55:36.607Z"
-  },
-  {
-   "name": "Gianmarco Pot.",
-   "at": "2026-11-03T12:55:36.607Z"
   }
  ],
  "second": {
@@ -115,6 +107,14 @@
   "keepers": false,
   "needed": 12,
   "convocati": [
+   {
+    "name": "Giordano Tau.",
+    "at": "2026-11-03T12:55:36.607Z"
+   },
+   {
+    "name": "Gianmarco Pot.",
+    "at": "2026-11-03T12:55:36.607Z"
+   },
    {
     "name": "Cristian Ric.",
     "at": "2026-11-03T12:55:36.607Z"
@@ -152,7 +152,7 @@
     "at": "2026-11-03T13:00:45.743Z"
    }
   ],
-  "missing": 3
+  "missing": 1
  },
  "riserve": [],
  "missing": 0,
