@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-11-03T12:54:47.107Z",
+ "updatedAt": "2026-11-03T12:55:37.618Z",
  "title": "Sondaggio automatico - Lunedì prossimo",
  "field": 7,
  "keepers": false,
@@ -54,39 +54,104 @@
  "status": "provvisoria",
  "convocati": [
   {
-   "name": "Giulio Mel.",
-   "at": "2026-11-03T12:29:26.909Z"
+   "name": "Riccardo De D.",
+   "at": "2026-11-03T12:55:36.607Z"
   },
   {
-   "name": "Pieroconte29",
-   "at": "2026-11-03T12:29:34.128Z"
+   "name": "Renato Pat.",
+   "at": "2026-11-03T12:55:36.607Z"
   },
   {
-   "name": "Riccardo Pal.",
-   "at": "2026-11-03T12:32:50.144Z"
+   "name": "Riccardo Lit.",
+   "at": "2026-11-03T12:55:36.607Z"
   },
   {
-   "name": "Gabriele",
-   "at": "2026-11-03T12:33:36.960Z"
+   "name": "Graziano Ven.",
+   "at": "2026-11-03T12:55:36.607Z"
   },
   {
-   "name": "francesco Cap.",
-   "at": "2026-11-03T12:33:48.405Z"
+   "name": "Piero",
+   "at": "2026-11-03T12:55:36.607Z"
   },
   {
-   "name": "Riccardo Pan.",
-   "at": "2026-11-03T12:34:12.789Z"
+   "name": "Federico Ser.",
+   "at": "2026-11-03T12:55:36.607Z"
+  },
+  {
+   "name": "Carlo Cam.",
+   "at": "2026-11-03T12:55:36.607Z"
+  },
+  {
+   "name": "Emanuele Ros.",
+   "at": "2026-11-03T12:55:36.607Z"
+  },
+  {
+   "name": "Francesco Ant.",
+   "at": "2026-11-03T12:55:36.607Z"
+  },
+  {
+   "name": "Speedy ⚡",
+   "at": "2026-11-03T12:55:36.607Z"
+  },
+  {
+   "name": "Simone Mor.",
+   "at": "2026-11-03T12:55:36.607Z"
+  },
+  {
+   "name": "Diego Cal.",
+   "at": "2026-11-03T12:55:36.607Z"
+  },
+  {
+   "name": "Giordano Tau.",
+   "at": "2026-11-03T12:55:36.607Z"
+  },
+  {
+   "name": "Gianmarco Pot.",
+   "at": "2026-11-03T12:55:36.607Z"
   }
  ],
  "second": {
   "field": 6,
   "keepers": false,
   "needed": 12,
-  "convocati": [],
-  "missing": 12
+  "convocati": [
+   {
+    "name": "Cristian Ric.",
+    "at": "2026-11-03T12:55:36.607Z"
+   },
+   {
+    "name": "Tommy Pet.",
+    "at": "2026-11-03T12:55:36.607Z"
+   },
+   {
+    "name": "Giulio",
+    "at": "2026-11-03T12:55:36.607Z"
+   },
+   {
+    "name": "Pierangelo Con.",
+    "at": "2026-11-03T12:55:36.607Z"
+   },
+   {
+    "name": "Riccardo Pal.",
+    "at": "2026-11-03T12:32:50.144Z"
+   },
+   {
+    "name": "Gabriele Per.",
+    "at": "2026-11-03T12:55:36.607Z"
+   },
+   {
+    "name": "Checco Cap.",
+    "at": "2026-11-03T12:55:36.607Z"
+   },
+   {
+    "name": "Alessandro Ros.",
+    "at": "2026-11-03T12:55:36.607Z"
+   }
+  ],
+  "missing": 4
  },
  "riserve": [],
- "missing": 8,
+ "missing": 0,
  "lineupAt": "2026-11-09T08:00:00.000Z",
  "lineupSentAt": null,
  "startsAt": "2026-11-09T19:00:00.000Z",
