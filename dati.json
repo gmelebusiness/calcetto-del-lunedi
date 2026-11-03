@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-11-03T12:55:36.918Z",
+ "updatedAt": "2026-11-03T13:01:40.374Z",
  "title": "Sondaggio automatico - Lunedì prossimo",
  "field": 7,
  "keepers": false,
@@ -146,9 +146,13 @@
    {
     "name": "Alessandro Ros.",
     "at": "2026-11-03T12:55:36.607Z"
+   },
+   {
+    "name": "Andrea",
+    "at": "2026-11-03T13:00:45.743Z"
    }
   ],
-  "missing": 4
+  "missing": 3
  },
  "riserve": [],
  "missing": 0,
