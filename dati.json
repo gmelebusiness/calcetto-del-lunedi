@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-11-07T14:31:13.117Z",
+ "updatedAt": "2026-11-07T14:31:26.526Z",
  "title": "Sondaggio automatico - Lunedì prossimo",
  "field": 8,
  "keepers": true,
@@ -111,9 +111,9 @@
   }
  ],
  "second": {
-  "field": 6,
+  "field": 7,
   "keepers": false,
-  "needed": 12,
+  "needed": 14,
   "convocati": [
    {
     "name": "Tommy Pet.",
@@ -152,7 +152,7 @@
     "at": "2026-11-06T19:47:25.807Z"
    }
   ],
-  "missing": 3
+  "missing": 5
  },
  "riserve": [],
  "missing": 0,
