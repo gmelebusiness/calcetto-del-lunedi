@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-11-06T19:47:26.815Z",
+ "updatedAt": "2026-11-07T00:00:26.970Z",
  "title": "Sondaggio automatico - Lunedì prossimo",
  "field": 7,
  "keepers": true,
@@ -86,10 +86,6 @@
    "at": "2026-11-06T19:47:25.807Z"
   },
   {
-   "name": "Francesco Ant.",
-   "at": "2026-11-06T19:47:25.807Z"
-  },
-  {
    "name": "Speedy ⚡",
    "at": "2026-11-06T19:47:25.807Z"
   },
@@ -100,6 +96,10 @@
   {
    "name": "Diego Cal.",
    "at": "2026-11-06T19:47:25.807Z"
+  },
+  {
+   "name": "Giordano Tau.",
+   "at": "2026-11-06T19:47:25.807Z"
   }
  ],
  "second": {
@@ -107,10 +107,6 @@
   "keepers": false,
   "needed": 12,
   "convocati": [
-   {
-    "name": "Giordano Tau.",
-    "at": "2026-11-06T19:47:25.807Z"
-   },
    {
     "name": "Gianmarco Pot.",
     "at": "2026-11-06T19:47:25.807Z"
@@ -156,7 +152,7 @@
     "at": "2026-11-06T19:47:25.807Z"
    }
   ],
-  "missing": 0
+  "missing": 1
  },
  "riserve": [],
  "missing": 0,
