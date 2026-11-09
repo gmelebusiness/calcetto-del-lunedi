@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-11-09T16:21:29.376Z",
+ "updatedAt": "2026-11-09T23:00:15.711Z",
  "title": "Sondaggio automatico - Lunedì prossimo",
  "field": 8,
  "keepers": true,
@@ -49,135 +49,21 @@
    ]
   }
  ],
- "week": "2026-11-09",
- "label": "lunedì 9 novembre",
- "status": "definitiva",
- "convocati": [
-  {
-   "name": "Riccardo De D.",
-   "at": "2026-11-09T16:21:28.366Z"
-  },
-  {
-   "name": "Renato Pat.",
-   "at": "2026-11-09T16:21:28.366Z"
-  },
-  {
-   "name": "Riccardo Lit.",
-   "at": "2026-11-09T16:21:28.366Z"
-  },
-  {
-   "name": "Graziano Ven.",
-   "at": "2026-11-09T16:21:28.366Z"
-  },
-  {
-   "name": "Piero",
-   "at": "2026-11-09T16:21:28.366Z"
-  },
-  {
-   "name": "Federico Ser.",
-   "at": "2026-11-09T16:21:28.366Z"
-  },
-  {
-   "name": "Carlo Cam.",
-   "at": "2026-11-09T16:21:28.366Z"
-  },
-  {
-   "name": "Francesco Ant.",
-   "at": "2026-11-09T16:21:28.366Z"
-  },
-  {
-   "name": "Speedy ⚡",
-   "at": "2026-11-09T16:21:28.366Z"
-  },
-  {
-   "name": "Lele LoS.",
-   "at": "2026-11-09T16:21:28.366Z"
-  },
-  {
-   "name": "Diego Cal.",
-   "at": "2026-11-09T16:21:28.366Z"
-  },
-  {
-   "name": "Giordano Tau.",
-   "at": "2026-11-09T16:21:28.366Z"
-  },
-  {
-   "name": "Cristian Ric.",
-   "at": "2026-11-09T16:21:28.366Z"
-  },
-  {
-   "name": "Tommy Pet.",
-   "at": "2026-11-09T16:21:28.366Z"
-  }
- ],
+ "week": null,
+ "label": null,
+ "status": "nessuna",
+ "convocati": [],
  "second": {
   "field": 7,
   "keepers": false,
   "needed": 14,
-  "convocati": [
-   {
-    "name": "Giulio",
-    "at": "2026-11-09T16:21:28.366Z"
-   },
-   {
-    "name": "Gabriele Per.",
-    "at": "2026-11-09T16:21:28.366Z"
-   },
-   {
-    "name": "Checco Cap.",
-    "at": "2026-11-09T16:21:28.366Z"
-   },
-   {
-    "name": "Alessandro Ros.",
-    "at": "2026-11-09T16:21:28.366Z"
-   },
-   {
-    "name": "andrea Ros.",
-    "at": "2026-11-09T16:21:28.366Z"
-   },
-   {
-    "name": "Eduardo Vir.",
-    "at": "2026-11-09T16:21:28.366Z"
-   },
-   {
-    "name": "Alessandro Pin.",
-    "at": "2026-11-09T16:21:28.366Z"
-   },
-   {
-    "name": "Simone Mor.",
-    "at": "2026-11-09T16:21:28.366Z"
-   },
-   {
-    "name": "Giulio Lop.",
-    "at": "2026-11-09T16:21:28.366Z"
-   },
-   {
-    "name": "Giorgio Mel.",
-    "at": "2026-11-09T16:21:28.366Z"
-   },
-   {
-    "name": "Ste De M.",
-    "at": "2026-11-09T16:21:28.366Z"
-   },
-   {
-    "name": "Amico Ste.",
-    "at": "2026-11-09T16:21:28.366Z"
-   },
-   {
-    "name": "Lorenzo Mor.",
-    "at": "2026-11-09T16:21:28.366Z"
-   },
-   {
-    "name": "Nicolo Ven.",
-    "at": "2026-11-09T16:21:28.366Z"
-   }
-  ],
+  "convocati": [],
   "missing": 0
  },
  "riserve": [],
  "missing": 0,
- "lineupAt": "2026-11-09T08:00:00.000Z",
- "lineupSentAt": "2026-11-09T16:21:28.366Z",
- "startsAt": "2026-11-09T19:00:00.000Z",
+ "lineupAt": null,
+ "lineupSentAt": null,
+ "startsAt": null,
  "teams": null
 }
