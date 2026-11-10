@@ -1,10 +1,10 @@
 {
  "version": 1,
- "updatedAt": "2026-11-10T12:28:16.763Z",
+ "updatedAt": "2026-11-10T12:32:03.888Z",
  "title": "Sondaggio automatico - Lunedì prossimo",
- "field": 8,
+ "field": 7,
  "keepers": true,
- "needed": 14,
+ "needed": 12,
  "nextPollAt": "2026-11-17T12:28:00.000Z",
  "nextWeek": "2026-11-23",
  "gameTime": "20:00",
@@ -74,19 +74,88 @@
    "at": "2026-11-10T12:28:18.484Z"
   },
   {
+   "name": "Stefano Pre.",
+   "at": "2026-11-10T12:28:18.564Z"
+  },
+  {
    "name": "Ale",
    "at": "2026-11-10T12:28:18.705Z"
+  },
+  {
+   "name": "Federico",
+   "at": "2026-11-10T12:28:19.439Z"
+  },
+  {
+   "name": "Pieroconte29",
+   "at": "2026-11-10T12:28:21.529Z"
+  },
+  {
+   "name": "Pierfra Cai.",
+   "at": "2026-11-10T12:28:21.686Z"
+  },
+  {
+   "name": "Gabriele",
+   "at": "2026-11-10T12:28:23.140Z"
+  },
+  {
+   "name": "Diego",
+   "at": "2026-11-10T12:28:23.990Z"
   }
  ],
  "second": {
   "field": 7,
   "keepers": false,
   "needed": 14,
-  "convocati": [],
-  "missing": 14
+  "convocati": [
+   {
+    "name": "Pippo",
+    "at": "2026-11-10T12:28:24.605Z"
+   },
+   {
+    "name": "Pierandrea Con.",
+    "at": "2026-11-10T12:28:26.032Z"
+   },
+   {
+    "name": "G.Potera",
+    "at": "2026-11-10T12:28:26.203Z"
+   },
+   {
+    "name": "tommi p",
+    "at": "2026-11-10T12:28:29.507Z"
+   },
+   {
+    "name": "francesco Cap.",
+    "at": "2026-11-10T12:28:33.282Z"
+   },
+   {
+    "name": "Cristian",
+    "at": "2026-11-10T12:28:52.693Z"
+   },
+   {
+    "name": "Andreasky",
+    "at": "2026-11-10T12:29:05.232Z"
+   },
+   {
+    "name": "SBR_Impianti",
+    "at": "2026-11-10T12:29:06.696Z"
+   },
+   {
+    "name": "Emanuele",
+    "at": "2026-11-10T12:29:16.774Z"
+   },
+   {
+    "name": "Gabri",
+    "at": "2026-11-10T12:29:20.688Z"
+   },
+   {
+    "name": "Speedy",
+    "at": "2026-11-10T12:31:19.485Z"
+   }
+  ],
+  "missing": 3
  },
  "riserve": [],
- "missing": 8,
+ "missing": 0,
  "lineupAt": "2026-11-16T08:00:00.000Z",
  "lineupSentAt": null,
  "startsAt": "2026-11-16T19:00:00.000Z",
