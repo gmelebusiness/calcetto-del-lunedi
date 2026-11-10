@@ -1,12 +1,12 @@
 {
  "version": 1,
- "updatedAt": "2026-11-10T11:46:45.589Z",
+ "updatedAt": "2026-11-10T12:28:17.263Z",
  "title": "Sondaggio automatico - Lunedì prossimo",
  "field": 8,
  "keepers": true,
  "needed": 14,
- "nextPollAt": "2026-11-10T12:28:00.000Z",
- "nextWeek": "2026-11-16",
+ "nextPollAt": "2026-11-17T12:28:00.000Z",
+ "nextWeek": "2026-11-23",
  "gameTime": "20:00",
  "results": [
   {
@@ -49,21 +49,50 @@
    ]
   }
  ],
- "week": null,
- "label": null,
- "status": "nessuna",
- "convocati": [],
+ "week": "2026-11-16",
+ "label": "lunedì 16 novembre",
+ "status": "provvisoria",
+ "convocati": [
+  {
+   "name": "Graziano Ven.",
+   "at": "2026-11-10T12:28:17.620Z"
+  },
+  {
+   "name": "Giulio Mel.",
+   "at": "2026-11-10T12:28:17.722Z"
+  },
+  {
+   "name": "Riccardo Lit.",
+   "at": "2026-11-10T12:28:17.884Z"
+  },
+  {
+   "name": "D📧DO",
+   "at": "2026-11-10T12:28:18.095Z"
+  },
+  {
+   "name": "Andrea",
+   "at": "2026-11-10T12:28:18.484Z"
+  },
+  {
+   "name": "Stefano Pre.",
+   "at": "2026-11-10T12:28:18.564Z"
+  },
+  {
+   "name": "Ale",
+   "at": "2026-11-10T12:28:18.705Z"
+  }
+ ],
  "second": {
   "field": 7,
   "keepers": false,
   "needed": 14,
   "convocati": [],
-  "missing": 0
+  "missing": 14
  },
  "riserve": [],
- "missing": 0,
- "lineupAt": null,
+ "missing": 7,
+ "lineupAt": "2026-11-16T08:00:00.000Z",
  "lineupSentAt": null,
- "startsAt": null,
+ "startsAt": "2026-11-16T19:00:00.000Z",
  "teams": null
 }
