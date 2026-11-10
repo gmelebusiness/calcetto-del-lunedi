@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-11-10T12:32:21.415Z",
+ "updatedAt": "2026-11-10T12:35:59.447Z",
  "title": "Sondaggio automatico - Lunedì prossimo",
  "field": 7,
  "keepers": true,
@@ -150,9 +150,13 @@
    {
     "name": "Speedy",
     "at": "2026-11-10T12:31:19.485Z"
+   },
+   {
+    "name": "Simone Mor.",
+    "at": "2026-11-10T12:35:56.844Z"
    }
   ],
-  "missing": 1
+  "missing": 0
  },
  "riserve": [],
  "missing": 0,
