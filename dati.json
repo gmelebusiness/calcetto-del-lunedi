@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-11-10T12:35:59.447Z",
+ "updatedAt": "2026-11-10T13:04:46.940Z",
  "title": "Sondaggio automatico - Lunedì prossimo",
  "field": 7,
  "keepers": true,
@@ -158,7 +158,12 @@
   ],
   "missing": 0
  },
- "riserve": [],
+ "riserve": [
+  {
+   "name": "g",
+   "at": "2026-11-10T13:04:44.900Z"
+  }
+ ],
  "missing": 0,
  "lineupAt": "2026-11-16T08:00:00.000Z",
  "lineupSentAt": null,
