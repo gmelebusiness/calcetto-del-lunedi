@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-11-10T12:29:03.792Z",
+ "updatedAt": "2026-11-10T12:29:19.061Z",
  "title": "Sondaggio automatico - Lunedì prossimo",
  "field": 8,
  "keepers": true,
@@ -138,9 +138,17 @@
    {
     "name": "SBR_Impianti",
     "at": "2026-11-10T12:29:06.696Z"
+   },
+   {
+    "name": "Emanuele",
+    "at": "2026-11-10T12:29:16.774Z"
+   },
+   {
+    "name": "Gabri",
+    "at": "2026-11-10T12:29:20.688Z"
    }
   ],
-  "missing": 8
+  "missing": 6
  },
  "riserve": [],
  "missing": 0,
