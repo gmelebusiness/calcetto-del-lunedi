@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-11-10T12:28:31.112Z",
+ "updatedAt": "2026-11-10T12:28:36.618Z",
  "title": "Sondaggio automatico - Lunedì prossimo",
  "field": 8,
  "keepers": true,
@@ -118,9 +118,13 @@
    {
     "name": "tommi p",
     "at": "2026-11-10T12:28:29.507Z"
+   },
+   {
+    "name": "francesco Cap.",
+    "at": "2026-11-10T12:28:33.282Z"
    }
   ],
-  "missing": 13
+  "missing": 12
  },
  "riserve": [],
  "missing": 0,
