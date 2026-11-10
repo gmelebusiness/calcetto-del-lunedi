@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-11-10T12:28:22.947Z",
+ "updatedAt": "2026-11-10T12:28:31.112Z",
  "title": "Sondaggio automatico - Lunedì prossimo",
  "field": 8,
  "keepers": true,
@@ -100,17 +100,30 @@
   {
    "name": "Pippo",
    "at": "2026-11-10T12:28:24.605Z"
+  },
+  {
+   "name": "Pierandrea Con.",
+   "at": "2026-11-10T12:28:26.032Z"
+  },
+  {
+   "name": "G.Potera",
+   "at": "2026-11-10T12:28:26.203Z"
   }
  ],
  "second": {
   "field": 7,
   "keepers": false,
   "needed": 14,
-  "convocati": [],
-  "missing": 14
+  "convocati": [
+   {
+    "name": "tommi p",
+    "at": "2026-11-10T12:28:29.507Z"
+   }
+  ],
+  "missing": 13
  },
  "riserve": [],
- "missing": 2,
+ "missing": 0,
  "lineupAt": "2026-11-16T08:00:00.000Z",
  "lineupSentAt": null,
  "startsAt": "2026-11-16T19:00:00.000Z",
