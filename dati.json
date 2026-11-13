@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-11-13T10:48:35.277Z",
+ "updatedAt": "2026-11-13T15:49:38.328Z",
  "title": "Sondaggio automatico - Lunedì prossimo",
  "field": 7,
  "keepers": true,
@@ -162,6 +162,10 @@
   {
    "name": "g",
    "at": "2026-11-10T13:04:44.900Z"
+  },
+  {
+   "name": "Nicoló",
+   "at": "2026-11-12T14:12:23.999Z"
   }
  ],
  "missing": 0,
