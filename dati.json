@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-11-14T06:40:18.743Z",
+ "updatedAt": "2026-11-14T07:05:35.942Z",
  "title": "Sondaggio automatico - Lunedì prossimo",
  "field": 7,
  "keepers": true,
@@ -108,10 +108,6 @@
   "needed": 12,
   "convocati": [
    {
-    "name": "Pippo",
-    "at": "2026-11-10T12:28:24.605Z"
-   },
-   {
     "name": "Pierandrea Con.",
     "at": "2026-11-10T12:28:26.032Z"
    },
@@ -154,15 +150,15 @@
    {
     "name": "Simone Mor.",
     "at": "2026-11-10T12:35:56.844Z"
+   },
+   {
+    "name": "g",
+    "at": "2026-11-10T13:04:44.900Z"
    }
   ],
   "missing": 0
  },
  "riserve": [
-  {
-   "name": "g",
-   "at": "2026-11-10T13:04:44.900Z"
-  },
   {
    "name": "Nicoló",
    "at": "2026-11-12T14:12:23.999Z"
