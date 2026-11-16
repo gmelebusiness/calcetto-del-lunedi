@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-11-16T08:39:26.568Z",
+ "updatedAt": "2026-11-16T10:40:28.151Z",
  "title": "Sondaggio automatico - Lunedì prossimo",
  "field": 7,
  "keepers": true,
@@ -54,10 +54,6 @@
  "status": "definitiva",
  "convocati": [
   {
-   "name": "Graziano Ven.",
-   "at": "2026-11-10T12:28:17.620Z"
-  },
-  {
    "name": "Giulio Mel.",
    "at": "2026-11-10T12:28:17.722Z"
   },
@@ -100,6 +96,10 @@
   {
    "name": "Diego",
    "at": "2026-11-10T12:28:23.990Z"
+  },
+  {
+   "name": "Pierandrea Con.",
+   "at": "2026-11-10T12:28:26.032Z"
   }
  ],
  "second": {
@@ -107,10 +107,6 @@
   "keepers": false,
   "needed": 12,
   "convocati": [
-   {
-    "name": "Pierandrea Con.",
-    "at": "2026-11-10T12:28:26.032Z"
-   },
    {
     "name": "tommi p",
     "at": "2026-11-10T12:28:29.507Z"
@@ -148,7 +144,7 @@
     "at": "2026-11-13T18:13:04.630Z"
    }
   ],
-  "missing": 2
+  "missing": 3
  },
  "riserve": [],
  "missing": 0,
