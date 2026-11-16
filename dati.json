@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-11-16T08:00:23.418Z",
+ "updatedAt": "2026-11-16T08:26:58.127Z",
  "title": "Sondaggio automatico - Lunedì prossimo",
  "field": 7,
  "keepers": true,
@@ -112,10 +112,6 @@
     "at": "2026-11-10T12:28:26.032Z"
    },
    {
-    "name": "G.Potera",
-    "at": "2026-11-10T12:28:26.203Z"
-   },
-   {
     "name": "tommi p",
     "at": "2026-11-10T12:28:29.507Z"
    },
@@ -156,7 +152,7 @@
     "at": "2026-11-13T18:13:04.630Z"
    }
   ],
-  "missing": 0
+  "missing": 1
  },
  "riserve": [],
  "missing": 0,
