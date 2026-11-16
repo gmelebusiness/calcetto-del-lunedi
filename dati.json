@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-11-16T01:48:36.406Z",
+ "updatedAt": "2026-11-16T06:54:12.598Z",
  "title": "Sondaggio automatico - Lunedì prossimo",
  "field": 7,
  "keepers": true,
@@ -124,10 +124,6 @@
     "at": "2026-11-10T12:28:33.282Z"
    },
    {
-    "name": "Cristian",
-    "at": "2026-11-10T12:28:52.693Z"
-   },
-   {
     "name": "Andreasky",
     "at": "2026-11-10T12:29:05.232Z"
    },
@@ -154,16 +150,15 @@
    {
     "name": "Nicoló",
     "at": "2026-11-12T14:12:23.999Z"
+   },
+   {
+    "name": "Marcolinoildj😋",
+    "at": "2026-11-13T18:13:04.630Z"
    }
   ],
   "missing": 0
  },
- "riserve": [
-  {
-   "name": "Marcolinoildj😋",
-   "at": "2026-11-13T18:13:04.630Z"
-  }
- ],
+ "riserve": [],
  "missing": 0,
  "lineupAt": "2026-11-16T08:00:00.000Z",
  "lineupSentAt": null,
