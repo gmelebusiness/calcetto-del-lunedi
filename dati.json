@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-11-17T12:29:43.529Z",
+ "updatedAt": "2026-11-17T12:30:03.709Z",
  "title": "Sondaggio automatico - Lunedì prossimo",
  "field": 7,
  "keepers": true,
@@ -128,10 +128,6 @@
     "at": "2026-11-17T12:28:22.281Z"
    },
    {
-    "name": "Gabriele 🦂",
-    "at": "2026-11-17T12:28:25.481Z"
-   },
-   {
     "name": "Davide",
     "at": "2026-11-17T12:28:26.131Z"
    },
@@ -150,6 +146,10 @@
    {
     "name": "Gabri",
     "at": "2026-11-17T12:28:52.940Z"
+   },
+   {
+    "name": "Gabriele 🦂",
+    "at": "2026-11-17T12:29:59.653Z"
    }
   ],
   "missing": 1
