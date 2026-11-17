@@ -1,12 +1,12 @@
 {
  "version": 1,
- "updatedAt": "2026-11-17T11:41:16.228Z",
+ "updatedAt": "2026-11-17T12:28:18.347Z",
  "title": "Sondaggio automatico - Lunedì prossimo",
  "field": 7,
  "keepers": true,
  "needed": 12,
- "nextPollAt": "2026-11-17T12:28:00.000Z",
- "nextWeek": "2026-11-23",
+ "nextPollAt": "2026-11-24T12:28:00.000Z",
+ "nextWeek": "2026-11-30",
  "gameTime": "20:00",
  "results": [
   {
@@ -49,21 +49,26 @@
    ]
   }
  ],
- "week": null,
- "label": null,
- "status": "nessuna",
- "convocati": [],
+ "week": "2026-11-23",
+ "label": "lunedì 23 novembre",
+ "status": "provvisoria",
+ "convocati": [
+  {
+   "name": "Giulio Mel.",
+   "at": "2026-11-17T12:28:17.674Z"
+  }
+ ],
  "second": {
   "field": 6,
   "keepers": false,
   "needed": 12,
   "convocati": [],
-  "missing": 0
+  "missing": 12
  },
  "riserve": [],
- "missing": 0,
- "lineupAt": null,
+ "missing": 11,
+ "lineupAt": "2026-11-23T08:00:00.000Z",
  "lineupSentAt": null,
- "startsAt": null,
+ "startsAt": "2026-11-23T19:00:00.000Z",
  "teams": null
 }
