@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-11-17T12:28:21.636Z",
+ "updatedAt": "2026-11-17T12:34:21.670Z",
  "title": "Sondaggio automatico - Lunedì prossimo",
  "field": 7,
  "keepers": true,
@@ -116,19 +116,47 @@
     "at": "2026-11-17T12:28:19.832Z"
    },
    {
-    "name": "tommi p",
-    "at": "2026-11-17T12:28:19.832Z"
-   },
-   {
     "name": "Emanuele",
     "at": "2026-11-17T12:28:20.423Z"
    },
    {
+    "name": "Diego",
+    "at": "2026-11-17T12:28:21.628Z"
+   },
+   {
+    "name": "Simone Mor.",
+    "at": "2026-11-17T12:28:22.281Z"
+   },
+   {
+    "name": "Davide",
+    "at": "2026-11-17T12:28:26.131Z"
+   },
+   {
+    "name": "Andrea",
+    "at": "2026-11-17T12:28:26.570Z"
+   },
+   {
     "name": "Jacopo Imp.",
-    "at": "2026-11-17T12:28:20.511Z"
+    "at": "2026-11-17T12:28:27.323Z"
+   },
+   {
+    "name": "tommi p",
+    "at": "2026-11-17T12:28:30.395Z"
+   },
+   {
+    "name": "Gabri",
+    "at": "2026-11-17T12:28:52.940Z"
+   },
+   {
+    "name": "Gabriele 🦂",
+    "at": "2026-11-17T12:29:59.653Z"
+   },
+   {
+    "name": "Nicoló",
+    "at": "2026-11-17T12:31:27.128Z"
    }
   ],
-  "missing": 7
+  "missing": 0
  },
  "riserve": [],
  "missing": 0,
