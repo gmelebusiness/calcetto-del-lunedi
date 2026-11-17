@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-11-17T12:28:18.347Z",
+ "updatedAt": "2026-11-17T12:28:21.636Z",
  "title": "Sondaggio automatico - Lunedì prossimo",
  "field": 7,
  "keepers": true,
@@ -54,19 +54,84 @@
  "status": "provvisoria",
  "convocati": [
   {
+   "name": "Riccardo Lit.",
+   "at": "2026-11-17T12:28:17.655Z"
+  },
+  {
    "name": "Giulio Mel.",
    "at": "2026-11-17T12:28:17.674Z"
+  },
+  {
+   "name": "Stefano Pre.",
+   "at": "2026-11-17T12:28:17.833Z"
+  },
+  {
+   "name": "Pierfra Cai.",
+   "at": "2026-11-17T12:28:17.950Z"
+  },
+  {
+   "name": "Emanuele🫨",
+   "at": "2026-11-17T12:28:18.184Z"
+  },
+  {
+   "name": "Graziano Ven.",
+   "at": "2026-11-17T12:28:18.257Z"
+  },
+  {
+   "name": "Matteo🏂",
+   "at": "2026-11-17T12:28:18.293Z"
+  },
+  {
+   "name": "Pieroconte29",
+   "at": "2026-11-17T12:28:18.372Z"
+  },
+  {
+   "name": "Federico",
+   "at": "2026-11-17T12:28:18.416Z"
+  },
+  {
+   "name": "Ale",
+   "at": "2026-11-17T12:28:18.451Z"
+  },
+  {
+   "name": "Gabriele",
+   "at": "2026-11-17T12:28:19.091Z"
+  },
+  {
+   "name": "SBR_Impianti",
+   "at": "2026-11-17T12:28:19.222Z"
   }
  ],
  "second": {
   "field": 6,
   "keepers": false,
   "needed": 12,
-  "convocati": [],
-  "missing": 12
+  "convocati": [
+   {
+    "name": "Speedy",
+    "at": "2026-11-17T12:28:19.255Z"
+   },
+   {
+    "name": "Pierandrea Con.",
+    "at": "2026-11-17T12:28:19.832Z"
+   },
+   {
+    "name": "tommi p",
+    "at": "2026-11-17T12:28:19.832Z"
+   },
+   {
+    "name": "Emanuele",
+    "at": "2026-11-17T12:28:20.423Z"
+   },
+   {
+    "name": "Jacopo Imp.",
+    "at": "2026-11-17T12:28:20.511Z"
+   }
+  ],
+  "missing": 7
  },
  "riserve": [],
- "missing": 11,
+ "missing": 0,
  "lineupAt": "2026-11-23T08:00:00.000Z",
  "lineupSentAt": null,
  "startsAt": "2026-11-23T19:00:00.000Z",
