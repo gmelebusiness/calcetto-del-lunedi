@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-11-17T12:29:29.636Z",
+ "updatedAt": "2026-11-17T12:29:43.529Z",
  "title": "Sondaggio automatico - Lunedì prossimo",
  "field": 7,
  "keepers": true,
@@ -150,13 +150,9 @@
    {
     "name": "Gabri",
     "at": "2026-11-17T12:28:52.940Z"
-   },
-   {
-    "name": "Riccardo Pal.",
-    "at": "2026-11-17T12:29:22.120Z"
    }
   ],
-  "missing": 0
+  "missing": 1
  },
  "riserve": [],
  "missing": 0,
