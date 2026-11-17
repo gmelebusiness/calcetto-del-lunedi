@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-11-17T12:28:20.848Z",
+ "updatedAt": "2026-11-17T12:28:25.200Z",
  "title": "Sondaggio automatico - Lunedì prossimo",
  "field": 7,
  "keepers": true,
@@ -118,9 +118,25 @@
    {
     "name": "tommi p",
     "at": "2026-11-17T12:28:19.832Z"
+   },
+   {
+    "name": "Emanuele",
+    "at": "2026-11-17T12:28:20.423Z"
+   },
+   {
+    "name": "Jacopo Imp.",
+    "at": "2026-11-17T12:28:20.511Z"
+   },
+   {
+    "name": "Diego",
+    "at": "2026-11-17T12:28:21.628Z"
+   },
+   {
+    "name": "Simone Mor.",
+    "at": "2026-11-17T12:28:22.281Z"
    }
   ],
-  "missing": 9
+  "missing": 5
  },
  "riserve": [],
  "missing": 0,
