@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-11-22T17:25:25.710Z",
+ "updatedAt": "2026-11-22T22:26:53.248Z",
  "title": "Sondaggio automatico - Lunedì prossimo",
  "field": 7,
  "keepers": true,
@@ -112,10 +112,6 @@
     "at": "2026-11-17T12:28:19.255Z"
    },
    {
-    "name": "Pierandrea Con.",
-    "at": "2026-11-17T12:28:19.832Z"
-   },
-   {
     "name": "Emanuele",
     "at": "2026-11-17T12:28:20.423Z"
    },
@@ -154,16 +150,15 @@
    {
     "name": "Nicoló",
     "at": "2026-11-17T12:31:27.128Z"
+   },
+   {
+    "name": "Umberto 💛🖤❤️",
+    "at": "2026-11-17T12:44:43.971Z"
    }
   ],
   "missing": 0
  },
- "riserve": [
-  {
-   "name": "Umberto 💛🖤❤️",
-   "at": "2026-11-17T12:44:43.971Z"
-  }
- ],
+ "riserve": [],
  "missing": 0,
  "lineupAt": "2026-11-23T08:00:00.000Z",
  "lineupSentAt": null,
