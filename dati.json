@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-11-22T22:26:50.748Z",
+ "updatedAt": "2026-11-23T03:26:33.589Z",
  "title": "Sondaggio automatico - Lunedì prossimo",
  "field": 7,
  "keepers": true,
@@ -86,10 +86,6 @@
    "at": "2026-11-17T12:28:18.372Z"
   },
   {
-   "name": "Federico",
-   "at": "2026-11-17T12:28:18.416Z"
-  },
-  {
    "name": "Ale",
    "at": "2026-11-17T12:28:18.451Z"
   },
@@ -100,6 +96,10 @@
   {
    "name": "SBR_Impianti",
    "at": "2026-11-17T12:28:19.222Z"
+  },
+  {
+   "name": "Speedy",
+   "at": "2026-11-17T12:28:19.255Z"
   }
  ],
  "second": {
@@ -107,10 +107,6 @@
   "keepers": false,
   "needed": 12,
   "convocati": [
-   {
-    "name": "Speedy",
-    "at": "2026-11-17T12:28:19.255Z"
-   },
    {
     "name": "Emanuele",
     "at": "2026-11-17T12:28:20.423Z"
@@ -156,7 +152,7 @@
     "at": "2026-11-17T12:44:43.971Z"
    }
   ],
-  "missing": 0
+  "missing": 1
  },
  "riserve": [],
  "missing": 0,
