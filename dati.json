@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-11-23T12:31:55.169Z",
+ "updatedAt": "2026-11-23T12:32:56.875Z",
  "title": "Sondaggio automatico - Lunedì prossimo",
  "field": 7,
  "keepers": true,
@@ -54,48 +54,48 @@
  "status": "definitiva",
  "convocati": [
   {
-   "name": "Riccardo Lit.",
-   "at": "2026-11-17T12:28:17.655Z"
+   "name": "Tu",
+   "at": "2026-11-23T12:32:56.552Z"
   },
   {
-   "name": "Giulio Mel.",
-   "at": "2026-11-17T12:28:17.674Z"
+   "name": "Riccardo Lit.",
+   "at": "2026-11-17T12:28:17.655Z"
   },
   {
    "name": "Stefano Pre.",
    "at": "2026-11-17T12:28:17.833Z"
   },
   {
-   "name": "Pierfra Cai.",
-   "at": "2026-11-17T12:28:17.950Z"
+   "name": "Piero",
+   "at": "2026-11-23T12:32:56.552Z"
   },
   {
-   "name": "Emanuele🫨",
-   "at": "2026-11-17T12:28:18.184Z"
+   "name": "Emanuele Ros.",
+   "at": "2026-11-23T12:32:56.552Z"
   },
   {
    "name": "Graziano Ven.",
    "at": "2026-11-17T12:28:18.257Z"
   },
   {
-   "name": "Matteo🏂",
-   "at": "2026-11-17T12:28:18.293Z"
+   "name": "Matteo But.",
+   "at": "2026-11-23T12:32:56.552Z"
   },
   {
-   "name": "Pieroconte29",
-   "at": "2026-11-17T12:28:18.372Z"
+   "name": "Pierangelo Con.",
+   "at": "2026-11-23T12:32:56.552Z"
   },
   {
-   "name": "Ale",
-   "at": "2026-11-17T12:28:18.451Z"
+   "name": "Alessandro Ros.",
+   "at": "2026-11-23T12:32:56.552Z"
   },
   {
-   "name": "Gabriele",
-   "at": "2026-11-17T12:28:19.091Z"
+   "name": "Gabriele Per.",
+   "at": "2026-11-23T12:32:56.552Z"
   },
   {
-   "name": "SBR_Impianti",
-   "at": "2026-11-17T12:28:19.222Z"
+   "name": "Giordano Tau.",
+   "at": "2026-11-23T12:32:56.552Z"
   },
   {
    "name": "Speedy",
@@ -109,55 +109,59 @@
   "convocati": [
    {
     "name": "Emanuele",
-    "at": "2026-11-17T12:28:20.423Z"
+    "at": "2026-11-17T12:28:18.184Z"
    },
    {
-    "name": "Diego",
-    "at": "2026-11-17T12:28:21.628Z"
+    "name": "Diego Cal.",
+    "at": "2026-11-23T12:32:56.552Z"
    },
    {
     "name": "Simone Mor.",
     "at": "2026-11-17T12:28:22.281Z"
    },
    {
-    "name": "Davide",
-    "at": "2026-11-17T12:28:26.131Z"
+    "name": "Davide Del.",
+    "at": "2026-11-23T12:32:56.552Z"
    },
    {
-    "name": "Andrea",
-    "at": "2026-11-17T12:28:26.570Z"
+    "name": "Andrea Ros.",
+    "at": "2026-11-23T12:32:56.552Z"
    },
    {
     "name": "Jacopo Imp.",
     "at": "2026-11-17T12:28:27.323Z"
    },
    {
-    "name": "tommi p",
-    "at": "2026-11-17T12:28:30.395Z"
+    "name": "Tommy Pet.",
+    "at": "2026-11-23T12:32:56.552Z"
    },
    {
-    "name": "Gabri",
-    "at": "2026-11-17T12:28:52.940Z"
+    "name": "Gabriele",
+    "at": "2026-11-17T12:28:19.091Z"
    },
    {
-    "name": "Gabriele 🦂",
-    "at": "2026-11-17T12:29:59.653Z"
-   },
-   {
-    "name": "Nicoló",
+    "name": "Nicolò",
     "at": "2026-11-17T12:31:27.128Z"
    },
    {
-    "name": "Umberto 💛🖤❤️",
+    "name": "Umberto",
     "at": "2026-11-17T12:44:43.971Z"
+   },
+   {
+    "name": "Stefano Vit.",
+    "at": "2026-11-23T12:32:56.552Z"
+   },
+   {
+    "name": "Checco Cap.",
+    "at": "2026-11-23T12:32:56.552Z"
    }
   ],
-  "missing": 1
+  "missing": 0
  },
  "riserve": [],
  "missing": 0,
  "lineupAt": "2026-11-23T08:00:00.000Z",
- "lineupSentAt": "2026-11-23T08:00:22.640Z",
+ "lineupSentAt": "2026-11-23T12:32:56.552Z",
  "startsAt": "2026-11-23T19:00:00.000Z",
  "teams": null
 }
