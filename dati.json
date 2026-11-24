@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-11-24T13:19:38.365Z",
+ "updatedAt": "2026-11-24T15:37:28.241Z",
  "title": "Sondaggio automatico - Lunedì prossimo",
  "field": 7,
  "keepers": true,
@@ -174,6 +174,10 @@
   {
    "name": "Giordano Tau.",
    "at": "2026-11-24T13:19:42.640Z"
+  },
+  {
+   "name": "Gabri",
+   "at": "2026-11-24T15:37:31.850Z"
   }
  ],
  "missing": 0,
