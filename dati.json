@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-11-24T12:28:35.152Z",
+ "updatedAt": "2026-11-24T12:34:36.528Z",
  "title": "Sondaggio automatico - Lunedì prossimo",
  "field": 6,
  "keepers": false,
@@ -90,19 +90,72 @@
    "at": "2026-11-24T12:28:39.658Z"
   },
   {
+   "name": "Emanuele Mar.",
+   "at": "2026-11-24T12:28:40.419Z"
+  },
+  {
    "name": "Emanuele Ros.",
    "at": "2026-11-24T12:28:40.447Z"
+  },
+  {
+   "name": "Carlo Cam.",
+   "at": "2026-11-24T12:28:40.488Z"
   }
  ],
  "second": {
   "field": 6,
   "keepers": false,
   "needed": 12,
-  "convocati": [],
-  "missing": 12
+  "convocati": [
+   {
+    "name": "Giulio Mel.",
+    "at": "2026-11-24T12:28:41.640Z"
+   },
+   {
+    "name": "Davide Del.",
+    "at": "2026-11-24T12:28:42.056Z"
+   },
+   {
+    "name": "Speedy⚡️",
+    "at": "2026-11-24T12:28:42.400Z"
+   },
+   {
+    "name": "Federico Ser.",
+    "at": "2026-11-24T12:28:42.709Z"
+   },
+   {
+    "name": "Diego Cal.",
+    "at": "2026-11-24T12:28:42.922Z"
+   },
+   {
+    "name": "Gabriele Per.",
+    "at": "2026-11-24T12:28:43.282Z"
+   },
+   {
+    "name": "Piero",
+    "at": "2026-11-24T12:28:43.570Z"
+   },
+   {
+    "name": "Simone Mor.",
+    "at": "2026-11-24T12:28:45.983Z"
+   },
+   {
+    "name": "Emanuele",
+    "at": "2026-11-24T12:29:15.579Z"
+   },
+   {
+    "name": "Pierangelo Con.",
+    "at": "2026-11-24T12:29:48.913Z"
+   },
+   {
+    "name": "Jonathan",
+    "at": "2026-11-24T12:32:05.952Z"
+   }
+  ],
+  "missing": 1
  },
  "riserve": [],
- "missing": 2,
+ "missing": 0,
  "lineupAt": "2026-11-30T08:00:00.000Z",
  "lineupSentAt": null,
  "startsAt": "2026-11-30T19:00:00.000Z",
