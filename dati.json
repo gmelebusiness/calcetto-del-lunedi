@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-11-24T12:28:40.348Z",
+ "updatedAt": "2026-11-24T12:28:49.651Z",
  "title": "Sondaggio automatico - Lunedì prossimo",
  "field": 6,
  "keepers": false,
@@ -90,16 +90,16 @@
    "at": "2026-11-24T12:28:39.658Z"
   },
   {
+   "name": "Emanuele Mar.",
+   "at": "2026-11-24T12:28:40.419Z"
+  },
+  {
    "name": "Emanuele Ros.",
    "at": "2026-11-24T12:28:40.447Z"
   },
   {
    "name": "Carlo Cam.",
    "at": "2026-11-24T12:28:40.488Z"
-  },
-  {
-   "name": "Giulio Mel.",
-   "at": "2026-11-24T12:28:41.640Z"
   }
  ],
  "second": {
@@ -107,6 +107,10 @@
   "keepers": false,
   "needed": 12,
   "convocati": [
+   {
+    "name": "Giulio Mel.",
+    "at": "2026-11-24T12:28:41.640Z"
+   },
    {
     "name": "Davide Del.",
     "at": "2026-11-24T12:28:42.056Z"
@@ -130,9 +134,13 @@
    {
     "name": "Piero",
     "at": "2026-11-24T12:28:43.570Z"
+   },
+   {
+    "name": "Simone Mor.",
+    "at": "2026-11-24T12:28:45.983Z"
    }
   ],
-  "missing": 6
+  "missing": 4
  },
  "riserve": [],
  "missing": 0,
