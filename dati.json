@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-11-24T12:29:53.661Z",
+ "updatedAt": "2026-11-24T12:30:10.389Z",
  "title": "Sondaggio automatico - Lunedì prossimo",
  "field": 6,
  "keepers": false,
@@ -144,15 +144,11 @@
     "at": "2026-11-24T12:29:15.579Z"
    },
    {
-    "name": "Gabriele Del.",
-    "at": "2026-11-24T12:29:41.101Z"
-   },
-   {
     "name": "Pierangelo Con.",
     "at": "2026-11-24T12:29:48.913Z"
    }
   ],
-  "missing": 1
+  "missing": 2
  },
  "riserve": [],
  "missing": 0,
