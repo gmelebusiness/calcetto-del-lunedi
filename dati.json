@@ -1,10 +1,10 @@
 {
  "version": 1,
- "updatedAt": "2026-11-24T13:19:08.947Z",
+ "updatedAt": "2026-11-24T13:19:41.868Z",
  "title": "Sondaggio automatico - Lunedì prossimo",
  "field": 7,
- "keepers": false,
- "needed": 14,
+ "keepers": true,
+ "needed": 12,
  "nextPollAt": "2026-12-01T12:28:00.000Z",
  "nextWeek": "2026-12-07",
  "gameTime": "21:00",
@@ -100,14 +100,6 @@
   {
    "name": "Carlo Cam.",
    "at": "2026-11-24T12:28:40.488Z"
-  },
-  {
-   "name": "Giulio Mel.",
-   "at": "2026-11-24T12:28:41.640Z"
-  },
-  {
-   "name": "Davide Del.",
-   "at": "2026-11-24T12:28:42.056Z"
   }
  ],
  "second": {
@@ -115,6 +107,14 @@
   "keepers": false,
   "needed": 12,
   "convocati": [
+   {
+    "name": "Giulio Mel.",
+    "at": "2026-11-24T12:28:41.640Z"
+   },
+   {
+    "name": "Davide Del.",
+    "at": "2026-11-24T12:28:42.056Z"
+   },
    {
     "name": "Speedy⚡️",
     "at": "2026-11-24T12:28:42.400Z"
@@ -154,22 +154,26 @@
    {
     "name": "Nicoló",
     "at": "2026-11-24T12:41:44.163Z"
-   },
-   {
-    "name": "Stefano Vit.",
-    "at": "2026-11-24T13:05:08.910Z"
-   },
-   {
-    "name": "Checco Cap.",
-    "at": "2026-11-24T13:05:33.996Z"
    }
   ],
   "missing": 0
  },
  "riserve": [
   {
+   "name": "Stefano Vit.",
+   "at": "2026-11-24T13:05:08.910Z"
+  },
+  {
+   "name": "Checco Cap.",
+   "at": "2026-11-24T13:05:33.996Z"
+  },
+  {
    "name": "Eduardo Vir.",
    "at": "2026-11-24T13:11:52.379Z"
+  },
+  {
+   "name": "Giordano Tau.",
+   "at": "2026-11-24T13:19:42.640Z"
   }
  ],
  "missing": 0,
