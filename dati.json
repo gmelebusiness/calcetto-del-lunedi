@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-11-24T12:30:10.389Z",
+ "updatedAt": "2026-11-24T12:32:05.205Z",
  "title": "Sondaggio automatico - Lunedì prossimo",
  "field": 6,
  "keepers": false,
@@ -146,9 +146,13 @@
    {
     "name": "Pierangelo Con.",
     "at": "2026-11-24T12:29:48.913Z"
+   },
+   {
+    "name": "Jonathan",
+    "at": "2026-11-24T12:32:05.952Z"
    }
   ],
-  "missing": 2
+  "missing": 1
  },
  "riserve": [],
  "missing": 0,
