@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-11-24T12:28:33.293Z",
+ "updatedAt": "2026-11-24T12:28:35.152Z",
  "title": "Sondaggio automatico - Lunedì prossimo",
  "field": 6,
  "keepers": false,
@@ -54,8 +54,44 @@
  "status": "provvisoria",
  "convocati": [
   {
+   "name": "Graziano Ven.",
+   "at": "2026-11-24T12:28:38.001Z"
+  },
+  {
+   "name": "Matteo But.",
+   "at": "2026-11-24T12:28:38.475Z"
+  },
+  {
    "name": "Stefano Pre.",
    "at": "2026-11-24T12:28:38.565Z"
+  },
+  {
+   "name": "Alessandro Ros.",
+   "at": "2026-11-24T12:28:38.622Z"
+  },
+  {
+   "name": "Riccardo Lit.",
+   "at": "2026-11-24T12:28:38.753Z"
+  },
+  {
+   "name": "Andrea Ros.",
+   "at": "2026-11-24T12:28:38.915Z"
+  },
+  {
+   "name": "Riccardo De D.",
+   "at": "2026-11-24T12:28:38.954Z"
+  },
+  {
+   "name": "Gabriele Cor.",
+   "at": "2026-11-24T12:28:39.089Z"
+  },
+  {
+   "name": "Riccardo Pan.",
+   "at": "2026-11-24T12:28:39.658Z"
+  },
+  {
+   "name": "Emanuele Ros.",
+   "at": "2026-11-24T12:28:40.447Z"
   }
  ],
  "second": {
@@ -66,7 +102,7 @@
   "missing": 12
  },
  "riserve": [],
- "missing": 11,
+ "missing": 2,
  "lineupAt": "2026-11-30T08:00:00.000Z",
  "lineupSentAt": null,
  "startsAt": "2026-11-30T19:00:00.000Z",
