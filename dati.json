@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-11-25T16:50:23.426Z",
+ "updatedAt": "2026-11-25T19:27:35.521Z",
  "title": "Sondaggio automatico - Lunedì prossimo",
  "field": 7,
  "keepers": true,
@@ -104,8 +104,8 @@
  ],
  "second": {
   "field": 6,
-  "keepers": false,
-  "needed": 12,
+  "keepers": true,
+  "needed": 10,
   "convocati": [
    {
     "name": "Speedy⚡️",
@@ -146,19 +146,19 @@
    {
     "name": "Stefano Vit.",
     "at": "2026-11-24T13:05:08.910Z"
-   },
-   {
-    "name": "Checco Cap.",
-    "at": "2026-11-24T13:05:33.996Z"
-   },
-   {
-    "name": "Eduardo Vir.",
-    "at": "2026-11-24T13:11:52.379Z"
    }
   ],
   "missing": 0
  },
  "riserve": [
+  {
+   "name": "Checco Cap.",
+   "at": "2026-11-24T13:05:33.996Z"
+  },
+  {
+   "name": "Eduardo Vir.",
+   "at": "2026-11-24T13:11:52.379Z"
+  },
   {
    "name": "Giordano Tau.",
    "at": "2026-11-24T13:19:42.640Z"
