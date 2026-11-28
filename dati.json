@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updatedAt": "2026-11-28T05:27:42.879Z",
+ "updatedAt": "2026-11-28T14:37:32.715Z",
  "title": "Sondaggio automatico - Lunedì prossimo",
  "field": 7,
  "keepers": true,
@@ -162,6 +162,10 @@
   {
    "name": "Gabri",
    "at": "2026-11-24T15:37:31.850Z"
+  },
+  {
+   "name": "Perroncino",
+   "at": "2026-11-28T14:37:33.435Z"
   }
  ],
  "missing": 0,
